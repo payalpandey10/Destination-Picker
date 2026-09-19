@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init-db": "node --experimental-sqlite src/db.js",
+    "start": "node --experimental-sqlite src/server.js",
+    "dev": "node --experimental-sqlite src/server.js",
+    "seed": "node --experimental-sqlite scripts/insert-destinations.js",
+    "generate": "node --experimental-sqlite scripts/generate-content.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

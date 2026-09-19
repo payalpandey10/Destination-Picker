@@ -1,0 +1,467 @@
+/* ============================================================
+   TU BATA — "travel scrapbook" visual language
+   A warm cream card floating over a blurred Delhi photo, with
+   polaroid snapshots and handwritten notes scattered around.
+   ============================================================ */
+
+:root {
+  --cream: #fffaf3;
+  --cream-dim: #f5ecdc;
+  --forest: #1f4d3d;
+  --forest-dark: #153a2d;
+  --mustard: #f0b429;
+  --chili: #e0502c;
+  --leaf: #2f7a5e;
+  --plum: #7a4b8c;
+  --text: #2b2620;
+  --muted: #9c9184;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+  position: relative;
+  overflow: hidden;
+  background: var(--forest-dark);
+}
+
+/* full-bleed blurred photo backdrop */
+.app-shell::before {
+  content: '';
+  position: absolute;
+  inset: -30px;
+  background-image: url('/stickers/bg-hero.jpg');
+  background-size: cover;
+  background-position: center 42%;
+  filter: blur(2px) brightness(0.9) saturate(1.1);
+  z-index: 0;
+}
+
+.app-shell::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(20, 15, 10, 0.25), rgba(20, 15, 10, 0.5));
+  z-index: 0;
+}
+
+.bg-decor,
+.screen {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- polaroid photos scattered around ---------- */
+
+.bg-decor {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.polaroid {
+  position: absolute;
+  background: #fff;
+  padding: 7px 7px 20px;
+  border-radius: 3px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.polaroid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 1px;
+}
+
+.polaroid-caption {
+  position: absolute;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+
+/* ---------- the main card ---------- */
+
+.screen {
+  width: 100%;
+  max-width: 420px;
+  background: var(--cream);
+  border-radius: 26px;
+  padding: 36px 30px 30px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  animation: card-in 0.5s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .screen { animation: none; }
+}
+
+/* ---------- typography ---------- */
+
+h1 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 44px;
+  margin: 0 0 6px;
+  color: var(--text);
+  line-height: 1;
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--mustard);
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: 10px 0 28px;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0 0 4px;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+.city-text {
+  color: var(--muted);
+  margin: 0 0 16px;
+  font-size: 14px;
+}
+
+.description {
+  line-height: 1.55;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* ---------- the category badge ---------- */
+
+.category-badge {
+  position: absolute;
+  top: -14px;
+  right: 24px;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  padding: 7px 14px;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  transform: rotate(-4deg);
+}
+
+.badge-chili { background: var(--chili); }
+.badge-leaf { background: var(--leaf); }
+.badge-marigold { background: var(--mustard); }
+.badge-plum { background: var(--plum); }
+
+/* ---------- filter groups with icon labels ---------- */
+
+.filter-group {
+  margin-bottom: 22px;
+}
+
+.filter-group-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.filter-group-label svg {
+  width: 16px;
+  height: 16px;
+  color: var(--mustard);
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--cream-dim);
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.pill svg {
+  width: 14px;
+  height: 14px;
+}
+
+.pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pill-active {
+  background: var(--mustard);
+  border-color: var(--mustard);
+  color: var(--forest-dark);
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(240, 180, 41, 0.4);
+}
+
+/* ---------- buttons ---------- */
+
+.btn-primary,
+.btn-secondary,
+.btn-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  border: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-primary {
+  background: var(--forest);
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(31, 77, 61, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(31, 77, 61, 0.45);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 6px 14px rgba(31, 77, 61, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--forest);
+  border: 1.5px solid var(--forest);
+}
+
+.btn-secondary:hover {
+  background: rgba(31, 77, 61, 0.06);
+}
+
+.btn-secondary:active {
+  transform: translateY(1px);
+}
+
+.btn-link {
+  background: none;
+  color: var(--muted);
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: 8px;
+  padding: 6px;
+}
+
+.back-link {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding: 0;
+  width: auto;
+  display: block;
+}
+
+/* ---------- the "drawing your ticket" moment ---------- */
+
+.drawing-screen {
+  text-align: center;
+  padding: 60px 30px;
+}
+
+.drawing-ticket-icon {
+  font-size: 48px;
+  animation: ticket-spin 0.9s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes ticket-spin {
+  0%, 100% { transform: rotate(-8deg) scale(1); }
+  50% { transform: rotate(8deg) scale(1.08); }
+}
+
+.drawing-label {
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--muted);
+  margin: 16px 0 4px;
+  font-size: 14px;
+}
+
+.drawing-cycle {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--forest);
+  min-height: 32px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drawing-ticket-icon { animation: none; }
+}
+
+/* ---------- tags on the result card ---------- */
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tag {
+  background: var(--cream-dim);
+  color: var(--text);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.tag-budget {
+  background: #e3efe6;
+  color: var(--leaf);
+}
+
+.tag-distance {
+  background: #eaf1fb;
+  color: #3a6ea5;
+  text-transform: none;
+}
+
+.hint-text {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 8px 0 0;
+  font-style: italic;
+}
+
+.error-text {
+  color: var(--chili);
+  font-size: 14px;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.empty-text {
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ---------- profile / guide screen ---------- */
+
+section {
+  margin-bottom: 24px;
+}
+
+section h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 12px;
+  border-bottom: 1.5px solid var(--cream-dim);
+  padding-bottom: 8px;
+}
+
+.famous-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.famous-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--cream-dim);
+}
+
+.famous-list li:last-child {
+  border-bottom: none;
+}
+
+.famous-list strong {
+  display: block;
+  margin-bottom: 4px;
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.famous-list span {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}

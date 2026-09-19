@@ -1,0 +1,65 @@
+// This is the ONLY manual part left — just names + basic facts.
+// No descriptions, no food lists. The AI generates all of that in Step 3b.
+// Add/remove places here freely, then re-run generate-content.js.
+
+module.exports = [
+  { name: 'Chandni Chowk', city: 'Delhi', category: 'market', lat: 28.6506, long: 77.2303, budget_level: 'low', vibe_tags: 'foodie,lively' },
+  { name: 'Hauz Khas Village', city: 'Delhi', category: 'neighborhood', lat: 28.5535, long: 77.1936, budget_level: 'medium', vibe_tags: 'chill,foodie' },
+  { name: 'Lodhi Garden', city: 'Delhi', category: 'park', lat: 28.5931, long: 77.2197, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Dilli Haat', city: 'Delhi', category: 'market', lat: 28.5732, long: 77.2069, budget_level: 'low', vibe_tags: 'foodie,lively' },
+  { name: 'Connaught Place', city: 'Delhi', category: 'market', lat: 28.6315, long: 77.2167, budget_level: 'medium', vibe_tags: 'lively,foodie' },
+  { name: 'Humayun\'s Tomb', city: 'Delhi', category: 'heritage_site', lat: 28.5933, long: 77.2507, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Sarojini Nagar Market', city: 'Delhi', category: 'market', lat: 28.5768, long: 77.1963, budget_level: 'low', vibe_tags: 'lively' },
+  { name: 'Kamla Nagar Market', city: 'Delhi', category: 'market', lat: 28.6816, long: 77.2062, budget_level: 'low', vibe_tags: 'foodie,lively' },
+  { name: 'Garden of Five Senses', city: 'Delhi', category: 'park', lat: 28.5024, long: 77.1994, budget_level: 'medium', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Khan Market', city: 'Delhi', category: 'market', lat: 28.6001, long: 77.2276, budget_level: 'high', vibe_tags: 'chill,foodie' },
+
+  // ---- Batch 2 ----
+  { name: 'India Gate', city: 'Delhi', category: 'heritage_site', lat: 28.6129, long: 77.2295, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Red Fort', city: 'Delhi', category: 'heritage_site', lat: 28.6562, long: 77.2410, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Qutub Minar', city: 'Delhi', category: 'heritage_site', lat: 28.5245, long: 77.1855, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Lotus Temple', city: 'Delhi', category: 'heritage_site', lat: 28.5535, long: 77.2588, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Akshardham Temple', city: 'Delhi', category: 'heritage_site', lat: 28.6127, long: 77.2773, budget_level: 'medium', vibe_tags: 'chill' },
+  { name: 'Jama Masjid', city: 'Delhi', category: 'heritage_site', lat: 28.6507, long: 77.2334, budget_level: 'low', vibe_tags: 'lively' },
+  { name: 'Purana Qila', city: 'Delhi', category: 'heritage_site', lat: 28.6091, long: 77.2431, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: "Agrasen ki Baoli", city: 'Delhi', category: 'heritage_site', lat: 28.6273, long: 77.2249, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Nehru Park', city: 'Delhi', category: 'park', lat: 28.5875, long: 77.2064, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Deer Park', city: 'Delhi', category: 'park', lat: 28.5560, long: 77.1980, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Select Citywalk', city: 'Delhi', category: 'mall', lat: 28.5286, long: 77.2192, budget_level: 'high', vibe_tags: 'lively' },
+  { name: 'DLF Promenade', city: 'Delhi', category: 'mall', lat: 28.5273, long: 77.1571, budget_level: 'high', vibe_tags: 'lively' },
+  { name: 'Majnu ka Tilla', city: 'Delhi', category: 'neighborhood', lat: 28.7041, long: 77.2278, budget_level: 'low', vibe_tags: 'foodie,lively' },
+  { name: 'Shahpur Jat', city: 'Delhi', category: 'neighborhood', lat: 28.5511, long: 77.2160, budget_level: 'medium', vibe_tags: 'chill,foodie' },
+  { name: 'Rajghat', city: 'Delhi', category: 'heritage_site', lat: 28.6410, long: 77.2495, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Gurudwara Bangla Sahib', city: 'Delhi', category: 'heritage_site', lat: 28.6257, long: 77.2100, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Prachin Hanuman Mandir', city: 'Delhi', category: 'heritage_site', lat: 28.6280, long: 77.2166, budget_level: 'low', vibe_tags: 'chill' },
+
+  // ---- Batch 3 ----
+  { name: 'Jantar Mantar', city: 'Delhi', category: 'heritage_site', lat: 28.6270, long: 77.2167, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Safdarjung Tomb', city: 'Delhi', category: 'heritage_site', lat: 28.5896, long: 77.2065, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Tughlaqabad Fort', city: 'Delhi', category: 'heritage_site', lat: 28.5083, long: 77.2642, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Feroz Shah Kotla', city: 'Delhi', category: 'heritage_site', lat: 28.6373, long: 77.2410, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Sanjay Lake', city: 'Delhi', category: 'lake', lat: 28.6167, long: 77.2919, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Kalindi Kunj', city: 'Delhi', category: 'lake', lat: 28.5285, long: 77.3134, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Buddha Jayanti Park', city: 'Delhi', category: 'park', lat: 28.5956, long: 77.1963, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Sanjay Van', city: 'Delhi', category: 'park', lat: 28.5411, long: 77.1697, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Janpath Market', city: 'Delhi', category: 'street', lat: 28.6262, long: 77.2183, budget_level: 'low', vibe_tags: 'lively,foodie' },
+  { name: 'Karol Bagh Market', city: 'Delhi', category: 'market', lat: 28.6519, long: 77.1907, budget_level: 'low', vibe_tags: 'lively,foodie' },
+  { name: 'Lajpat Nagar Central Market', city: 'Delhi', category: 'market', lat: 28.5677, long: 77.2431, budget_level: 'low', vibe_tags: 'lively,foodie' },
+  { name: 'Greater Kailash M Block Market', city: 'Delhi', category: 'market', lat: 28.5494, long: 77.2425, budget_level: 'medium', vibe_tags: 'chill,foodie' },
+  { name: 'Defence Colony Market', city: 'Delhi', category: 'market', lat: 28.5732, long: 77.2298, budget_level: 'medium', vibe_tags: 'chill,foodie' },
+  { name: 'National Museum', city: 'Delhi', category: 'heritage_site', lat: 28.6116, long: 77.2196, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'Rashtrapati Bhavan', city: 'Delhi', category: 'heritage_site', lat: 28.6143, long: 77.1996, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+
+  // ---- Batch 4 ----
+  { name: 'Mehrauli Archaeological Park', city: 'Delhi', category: 'heritage_site', lat: 28.5165, long: 77.1855, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Nizamuddin Basti', city: 'Delhi', category: 'neighborhood', lat: 28.5905, long: 77.2431, budget_level: 'low', vibe_tags: 'foodie,chill' },
+  { name: 'Paharganj Main Bazaar', city: 'Delhi', category: 'market', lat: 28.6449, long: 77.2167, budget_level: 'low', vibe_tags: 'lively,foodie' },
+  { name: 'Chawri Bazar', city: 'Delhi', category: 'market', lat: 28.6507, long: 77.2264, budget_level: 'low', vibe_tags: 'lively' },
+  { name: 'Chattarpur Temple', city: 'Delhi', category: 'heritage_site', lat: 28.5011, long: 77.1690, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'ISKCON Temple Delhi', city: 'Delhi', category: 'heritage_site', lat: 28.5533, long: 77.2506, budget_level: 'low', vibe_tags: 'chill' },
+  { name: 'National Zoological Park', city: 'Delhi', category: 'park', lat: 28.6127, long: 77.2437, budget_level: 'low', vibe_tags: 'outdoorsy,chill' },
+  { name: 'Yamuna Biodiversity Park', city: 'Delhi', category: 'park', lat: 28.7434, long: 77.2308, budget_level: 'low', vibe_tags: 'outdoorsy,chill' },
+  { name: 'Coronation Park', city: 'Delhi', category: 'park', lat: 28.7167, long: 77.1833, budget_level: 'low', vibe_tags: 'chill,outdoorsy' },
+  { name: 'Rajouri Garden Market', city: 'Delhi', category: 'market', lat: 28.6469, long: 77.1225, budget_level: 'low', vibe_tags: 'lively,foodie' },
+  { name: 'Pragati Maidan', city: 'Delhi', category: 'heritage_site', lat: 28.6139, long: 77.2431, budget_level: 'medium', vibe_tags: 'chill' },
+];
