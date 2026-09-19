@@ -21,6 +21,16 @@ export default function PlaceProfile({ profile, loading, onBack, onTryAgain }) {
       <p className="city-text">{profile.city}</p>
       {profile.short_description && <p className="description">{profile.short_description}</p>}
 
+      {profile.nearest_metro_station && (
+        <div className="metro-info">
+          <span className="metro-icon">🚇</span>
+          <div>
+            <strong>{profile.nearest_metro_station}</strong>
+            <span className="metro-gate">{profile.metro_gate}</span>
+          </div>
+        </div>
+      )}
+
       <section>
         <h3>Famous food here</h3>
         {profile.famous_food.length === 0 ? (

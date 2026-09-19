@@ -421,6 +421,32 @@ h2 {
 
 /* ---------- profile / guide screen ---------- */
 
+.metro-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--cream-dim);
+  border-radius: 14px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.metro-icon {
+  font-size: 22px;
+}
+
+.metro-info strong {
+  display: block;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.metro-gate {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+}
+
 section {
   margin-bottom: 24px;
 }

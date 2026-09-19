@@ -12,6 +12,8 @@ CREATE TABLE IF NOT EXISTS destinations (
   short_description TEXT,
   vibe_tags       TEXT,                 -- comma-separated: "chill,foodie" (see note below)
   budget_level    TEXT NOT NULL DEFAULT 'medium', -- 'low' | 'medium' | 'high'
+  nearest_metro_station TEXT,
+  metro_gate      TEXT,
   created_at      TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
