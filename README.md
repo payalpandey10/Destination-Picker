@@ -97,6 +97,11 @@ Background and sticker photos are the project owner's own sourced images
 - [x] Deployment to a public URL
 - [ ] Expansion beyond Delhi
 
+## License
+
+MIT — see [LICENSE](LICENSE) for details. Background and sticker photos are
+sourced from free-license sites, not covered by the code license.
+
 ## Why this is different from "random restaurant picker" apps
 
 Apps like Restaurant Roulette or Lunch Wheel spin a wheel for a random nearby
