@@ -1,5 +1,7 @@
 # Tu Bata 🎟️
 
+**🔗 [Try it live](https://destination-picker-ten.vercel.app/)**
+
 **Stop arguing about where to go.** Tu Bata picks a destination for you — one tap,
 no scrolling, no "nahi tu bata" loop — and then acts as a mini local guide for
 that place: what's actually famous to eat there, and what's worth doing.
@@ -92,7 +94,7 @@ Background and sticker photos are the project owner's own sourced images
 - [x] Nearest metro station info
 - [x] A growing set of Delhi destinations across markets, parks, heritage sites, lakes, streets
 - [ ] Two-person shared session (both people see the same pick at once)
-- [ ] Deployment to a public URL
+- [x] Deployment to a public URL
 - [ ] Expansion beyond Delhi
 
 ## Why this is different from "random restaurant picker" apps
