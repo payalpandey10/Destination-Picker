@@ -1,0 +1,3718 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Chandni Chowk",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6506,
+      "long": 77.2303,
+      "short_description": "Chandni Chowk is Delhi’s historic bustling market, a maze of narrow lanes filled with Mughal-era architecture, iconic eateries and vibrant bazaars.",
+      "vibe_tags": "foodie,lively",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Chandni Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 2,
+      "name": "Hauz Khas Village",
+      "city": "Delhi",
+      "category": "neighborhood",
+      "lat": 28.5535,
+      "long": 77.1936,
+      "short_description": "Hauz Khas Village is a historic‑plus‑trendy enclave in Delhi, blending medieval ruins, green spaces, boutique shops and a lively food‑and‑drink scene.",
+      "vibe_tags": "chill,foodie",
+      "budget_level": "medium",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Hauz Khas",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 3,
+      "name": "Lodhi Garden",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.5931,
+      "long": 77.2197,
+      "short_description": "Lodhi Garden is a historic Delhi park featuring Mughal tombs, lush lawns, and a lively food scene.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Jor Bagh",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 4,
+      "name": "Dilli Haat",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.5732,
+      "long": 77.2069,
+      "short_description": "An open-air crafts and food bazaar in Delhi showcasing regional Indian cuisines, handicrafts, and cultural performances.",
+      "vibe_tags": "foodie,lively",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "INA",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 5,
+      "name": "Connaught Place",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6315,
+      "long": 77.2167,
+      "short_description": "Connaught Place is Delhi’s historic circular commercial hub, famed for its British-era architecture, bustling markets, and iconic street‑food stalls.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "medium",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Rajiv Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 6,
+      "name": "Humayun's Tomb",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5933,
+      "long": 77.2507,
+      "short_description": "Humayun's Tomb is a UNESCO‑listed Mughal mausoleum in Delhi, famed for its grand double‑dome architecture and Char‑Bagh garden.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "JLN Stadium",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 7,
+      "name": "Sarojini Nagar Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.5768,
+      "long": 77.1963,
+      "short_description": "Sarojini Nagar Market is a bustling Delhi shopping hub famous for ultra‑cheap export‑surplus fashion and lively street‑food stalls.",
+      "vibe_tags": "lively",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Sarojini Nagar",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 8,
+      "name": "Kamla Nagar Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6816,
+      "long": 77.2062,
+      "short_description": "Kamla Nagar Market is a bustling Delhi University‑adjacent bazaar known for cheap fashion, lively student hangouts, and iconic street food.",
+      "vibe_tags": "foodie,lively",
+      "budget_level": "low",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Vishwavidyalaya",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 9,
+      "name": "Garden of Five Senses",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.5024,
+      "long": 77.1994,
+      "short_description": "A lush Delhi park celebrating sight, sound, scent, touch, and taste with gardens, trails, and diverse food stalls.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "medium",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Qutub Minar",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 10,
+      "name": "Khan Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6001,
+      "long": 77.2276,
+      "short_description": "Khan Market is Delhi’s upscale historic shopping enclave known for designer boutiques, iconic eateries, and cultural buzz.",
+      "vibe_tags": "chill,foodie",
+      "budget_level": "high",
+      "created_at": "2026-09-13 11:38:27",
+      "nearest_metro_station": "Jor Bagh",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 11,
+      "name": "India Gate",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6129,
+      "long": 77.2295,
+      "short_description": "India Gate is a war memorial and public gathering space in central Delhi, surrounded by lawns and historic avenues.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Central Secretariat",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 12,
+      "name": "Red Fort",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6562,
+      "long": 77.241,
+      "short_description": "Red Fort is a massive 17th‑century Mughal fortress in Old Delhi, iconic for its red sandstone walls and historic monuments.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Chandni Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 13,
+      "name": "Qutub Minar",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5245,
+      "long": 77.1855,
+      "short_description": "Qutub Minar, a 73‑meter UNESCO‑listed tower in Delhi surrounded by historic ruins and bustling street‑food stalls.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Qutub Minar",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 14,
+      "name": "Lotus Temple",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5535,
+      "long": 77.2588,
+      "short_description": "The Lotus Temple is a striking Baháʼí House of Worship in Delhi, known for its lotus‑shaped marble structure and tranquil gardens.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Kalkaji Mandir",
+      "metro_gate": "Exit 1"
+    },
+    {
+      "id": 15,
+      "name": "Akshardham Temple",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6127,
+      "long": 77.2773,
+      "short_description": "Akshardham Temple in Delhi is a sprawling cultural and spiritual complex showcasing Indian heritage, art, and devotion.",
+      "vibe_tags": "chill",
+      "budget_level": "medium",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Akshardham",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 16,
+      "name": "Jama Masjid",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6507,
+      "long": 77.2334,
+      "short_description": "Jama Masjid, a grand 17th‑century Mughal mosque in Old Delhi, dominates the bustling historic heart of the city.",
+      "vibe_tags": "lively",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Chandni Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 17,
+      "name": "Purana Qila",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6091,
+      "long": 77.2431,
+      "short_description": "Purana Qila is a historic Delhi fortress featuring Mughal architecture, a bustling heritage food street, and cultural attractions.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Jama Masjid",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 18,
+      "name": "Agrasen ki Baoli",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6273,
+      "long": 77.2249,
+      "short_description": "Agrasen Ki Baoli is a historic 14th‑century step‑well in central Delhi, famed for its intricate arches and tranquil ambience.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Barakhamba Road",
+      "metro_gate": "2"
+    },
+    {
+      "id": 19,
+      "name": "Nehru Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.5875,
+      "long": 77.2064,
+      "short_description": "Nehru Park is a central Delhi green space featuring a bronze Nehru statue, walking tracks, and cultural events.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Udyog Bhawan",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 20,
+      "name": "Deer Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.556,
+      "long": 77.198,
+      "short_description": "Deer Park is a leafy urban oasis in Delhi featuring a deer enclosure, gardens, and lively food stalls.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Hauz Khas",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 21,
+      "name": "Select Citywalk",
+      "city": "Delhi",
+      "category": "mall",
+      "lat": 28.5286,
+      "long": 77.2192,
+      "short_description": "Select Citywalk is a premier upscale shopping mall in Delhi’s Saket district, featuring a blend of retail, dining, and entertainment.",
+      "vibe_tags": "lively",
+      "budget_level": "high",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Saket",
+      "metro_gate": "1"
+    },
+    {
+      "id": 22,
+      "name": "DLF Promenade",
+      "city": "Delhi",
+      "category": "mall",
+      "lat": 28.5273,
+      "long": 77.1571,
+      "short_description": "DLF Promenade is an upscale Delhi mall offering luxury brands, diverse dining, a multiplex, and vibrant events.",
+      "vibe_tags": "lively",
+      "budget_level": "high",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "DLF Phase 1",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 23,
+      "name": "Majnu ka Tilla",
+      "city": "Delhi",
+      "category": "neighborhood",
+      "lat": 28.7041,
+      "long": 77.2278,
+      "short_description": "Majnu‑ka‑Tilla is Delhi’s vibrant Tibetan enclave, known for its colorful monastery, bustling markets, and authentic Tibetan cuisine.",
+      "vibe_tags": "foodie,lively",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Mansarovar Park",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 24,
+      "name": "Shahpur Jat",
+      "city": "Delhi",
+      "category": "neighborhood",
+      "lat": 28.5511,
+      "long": 77.216,
+      "short_description": "Shahpur Jat is a historic village‑turned‑trendy enclave in South Delhi, known for its heritage lanes, street art and indie eateries.",
+      "vibe_tags": "chill,foodie",
+      "budget_level": "medium",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Qutub Minar",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 25,
+      "name": "Rajghat",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.641,
+      "long": 77.2495,
+      "short_description": "Rajghat in Delhi is the memorial and cremation site of Mahatma Gandhi, featuring a museum, eternal flame, and riverfront grounds.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Nizamuddin",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 26,
+      "name": "Gurudwara Bangla Sahib",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6257,
+      "long": 77.21,
+      "short_description": "Bangla Sahib is a historic Sikh gurdwara in Delhi, renowned for its golden dome, holy tank and free community meals.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Rajiv Chowk",
+      "metro_gate": "3"
+    },
+    {
+      "id": 27,
+      "name": "Prachin Hanuman Mandir",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.628,
+      "long": 77.2166,
+      "short_description": "Prachin Hanuman Mandir is a historic 19th‑century Hanuman temple in Connaught Place, Delhi, known for its vibrant devotions and nearby street‑food stalls.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": null,
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 28,
+      "name": "Jantar Mantar",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.627,
+      "long": 77.2167,
+      "short_description": "Jantar Mantar is a 1724‑year‑old astronomical observatory in Delhi, famed for its massive stone instruments.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Rajiv Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 29,
+      "name": "Safdarjung Tomb",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5896,
+      "long": 77.2065,
+      "short_description": "Safdarjung Tomb is an 18th‑century Mughal mausoleum set in landscaped gardens in South Delhi.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Jor Bagh",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 30,
+      "name": "Tughlaqabad Fort",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5083,
+      "long": 77.2642,
+      "short_description": "Tughlaqabad Fort is a massive 14th‑century ruined citadel on Delhi’s southern fringe, known for its towering walls and historic ruins.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Tughlakabad",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 31,
+      "name": "Feroz Shah Kotla",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6373,
+      "long": 77.241,
+      "short_description": "Feroz Shah Kotla is a medieval fort in Old Delhi that also houses the Arun Jaitley cricket stadium, surrounded by bustling street‑food stalls.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Delhi Gate",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 32,
+      "name": "Sanjay Lake",
+      "city": "Delhi",
+      "category": "lake",
+      "lat": 28.6167,
+      "long": 77.2919,
+      "short_description": "Sanjay Lake is a Delhi urban oasis featuring a serene water body, walking tracks, and vibrant weekend life.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": null,
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 33,
+      "name": "Kalindi Kunj",
+      "city": "Delhi",
+      "category": "lake",
+      "lat": 28.5285,
+      "long": 77.3134,
+      "short_description": "Kalindi Kunj is a lakeside recreational park in Delhi‑Noida known for its promenade, water‑sports and vibrant food stalls.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Kalindi Kunj",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 34,
+      "name": "Buddha Jayanti Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.5956,
+      "long": 77.1963,
+      "short_description": "Buddha Jayanti Park is a peaceful Delhi green space centered around a Buddha statue, meditation garden, and lively food stalls.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": null,
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 35,
+      "name": "Sanjay Van",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.5411,
+      "long": 77.1697,
+      "short_description": "Sanjay Van is a historic urban forest adjacent to Qutub Minar, offering lush greenery and wildlife within Delhi.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Qutub Minar",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 36,
+      "name": "Janpath Market",
+      "city": "Delhi",
+      "category": "street",
+      "lat": 28.6262,
+      "long": 77.2183,
+      "short_description": "Janpath Market is a bustling Delhi boulevard known for vibrant street food, eclectic stalls, and lively cultural ambience.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Mandi House",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 37,
+      "name": "Karol Bagh Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6519,
+      "long": 77.1907,
+      "short_description": "Karol Bagh is a bustling Delhi market famous for affordable fashion, fabrics, and lively street‑food alleys.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Karol Bagh",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 38,
+      "name": "Lajpat Nagar Central Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.5677,
+      "long": 77.2431,
+      "short_description": "Lajpat Nagar Central Market is a bustling Delhi shopping hub known for its crowded lanes, street food stalls, and easy metro access.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Lajpat Nagar",
+      "metro_gate": "Gate 2"
+    },
+    {
+      "id": 39,
+      "name": "Greater Kailash M Block Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.5494,
+      "long": 77.2425,
+      "short_description": "Greater Kailash M‑Block market is a bustling Delhi lane famed for its street‑food stalls, modest shops, and local community vibe.",
+      "vibe_tags": "chill,foodie",
+      "budget_level": "medium",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Kalkaji Mandir",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 40,
+      "name": "Defence Colony Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.5732,
+      "long": 77.2298,
+      "short_description": "Defence Colony Market is a bustling neighbourhood hub in South Delhi, famed for its iconic eateries, street‑food stalls and lively community vibe.",
+      "vibe_tags": "chill,foodie",
+      "budget_level": "medium",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Lajpat Nagar",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 41,
+      "name": "National Museum",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6116,
+      "long": 77.2196,
+      "short_description": "The National Museum in Delhi showcases India’s art, archaeology, and cultural heritage across extensive permanent and temporary galleries.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Udyog Bhawan",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 42,
+      "name": "Rashtrapati Bhavan",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6143,
+      "long": 77.1996,
+      "short_description": "Rashtrapati Bhavan is India’s presidential residence, famed for its grand architecture, historic gardens, and exclusive state‑function cuisine.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 09:26:17",
+      "nearest_metro_station": "Udyog Bhawan",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 43,
+      "name": "Mehrauli Archaeological Park",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5165,
+      "long": 77.1855,
+      "short_description": "Mehrauli Archaeological Park is a sprawling heritage site in Delhi encompassing the Qutub Minar complex and surrounding medieval ruins.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "Qutub Minar",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 44,
+      "name": "Nizamuddin Basti",
+      "city": "Delhi",
+      "category": "neighborhood",
+      "lat": 28.5905,
+      "long": 77.2431,
+      "short_description": "Nizamuddin Basti is a historic Delhi neighbourhood surrounding the revered Nizamuddin Auliya dargah, famed for its Sufi heritage and iconic street food.",
+      "vibe_tags": "foodie,chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "Nizamuddin",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 45,
+      "name": "Paharganj Main Bazaar",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6449,
+      "long": 77.2167,
+      "short_description": "Paharganj Main Bazaar is a bustling Delhi market known for its eclectic street food and vibrant backpacker scene.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "New Delhi",
+      "metro_gate": "Gate No. 1"
+    },
+    {
+      "id": 46,
+      "name": "Chawri Bazar",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6507,
+      "long": 77.2264,
+      "short_description": "Chawri Bazar is Delhi’s historic metal‑ware market in Old Delhi, famed for its narrow lanes, wedding‑supply shops and iconic street‑food stalls.",
+      "vibe_tags": "lively",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "Chandni Chowk",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 47,
+      "name": "Chattarpur Temple",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5011,
+      "long": 77.169,
+      "short_description": "Chattarpur Temple is a sprawling Shiva complex on Delhi’s southern outskirts, famed for its towering lingam, intricate carvings, and forest‑like setting.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "Chattarpur",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 48,
+      "name": "ISKCON Temple Delhi",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.5533,
+      "long": 77.2506,
+      "short_description": "ISKCON Temple Delhi is a bustling spiritual complex famed for its ornate deities, daily prayers, and vegetarian prasadam.",
+      "vibe_tags": "chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "Laxmi Nagar",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 49,
+      "name": "National Zoological Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.6127,
+      "long": 77.2437,
+      "short_description": "Delhi’s National Zoological Park is a sprawling urban zoo featuring diverse wildlife, educational exhibits, and family-friendly attractions.",
+      "vibe_tags": "outdoorsy,chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": "AIIMS",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 50,
+      "name": "Yamuna Biodiversity Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.7434,
+      "long": 77.2308,
+      "short_description": "Yamuna Biodiversity Park is a restored wetland and grassland oasis in Delhi showcasing native flora, fauna, and ecological education.",
+      "vibe_tags": "outdoorsy,chill",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:12",
+      "nearest_metro_station": null,
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 51,
+      "name": "Coronation Park",
+      "city": "Delhi",
+      "category": "park",
+      "lat": 28.7167,
+      "long": 77.1833,
+      "short_description": "Coronation Park is a historic Delhi green space featuring colonial monuments, a jogging loop, and lively weekend vendors.",
+      "vibe_tags": "chill,outdoorsy",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:13",
+      "nearest_metro_station": "Delhi Cantt",
+      "metro_gate": "check signage on arrival"
+    },
+    {
+      "id": 52,
+      "name": "Rajouri Garden Market",
+      "city": "Delhi",
+      "category": "market",
+      "lat": 28.6469,
+      "long": 77.1225,
+      "short_description": "Rajouri Garden market is a bustling Delhi hub famed for its vibrant food street, eclectic stalls, and lively local scene.",
+      "vibe_tags": "lively,foodie",
+      "budget_level": "low",
+      "created_at": "2026-09-16 10:07:13",
+      "nearest_metro_station": "Rajouri Garden",
+      "metro_gate": "Gate 1"
+    },
+    {
+      "id": 53,
+      "name": "Pragati Maidan",
+      "city": "Delhi",
+      "category": "heritage_site",
+      "lat": 28.6139,
+      "long": 77.2431,
+      "short_description": "Pragati Maidan is Delhi’s premier exhibition and convention complex hosting large fairs and a bustling food court.",
+      "vibe_tags": "chill",
+      "budget_level": "medium",
+      "created_at": "2026-09-16 10:07:13",
+      "nearest_metro_station": "Udyog Bhawan",
+      "metro_gate": "check signage on arrival"
+    }
+  ],
+  "famousFood": [
+    {
+      "id": 1,
+      "destination_id": 1,
+      "name": "Paranthe Wali Gali",
+      "note": "Lane of stalls serving dozens of stuffed parathas, a breakfast staple since the 17th century.",
+      "photo_url": null
+    },
+    {
+      "id": 2,
+      "destination_id": 1,
+      "name": "Karim’s",
+      "note": "Historic eatery near Jama Masjid famed for authentic Mughal mutton biryani, kebabs, and rich gravies.",
+      "photo_url": null
+    },
+    {
+      "id": 3,
+      "destination_id": 1,
+      "name": "Natraj Dahi Bhalla",
+      "note": "Renowned stall offering crisp lentil fritters drenched in spiced yogurt, topped with tamarind chutney.",
+      "photo_url": null
+    },
+    {
+      "id": 4,
+      "destination_id": 1,
+      "name": "Kuremal Mohan Lal Kulfi",
+      "note": "Legendary shop serving dense traditional kulfi, famous for pistachio, mango, and Ras Malai flavors.",
+      "photo_url": null
+    },
+    {
+      "id": 17,
+      "destination_id": 5,
+      "name": "Sita Ram Diwan Chand – Chole Bhature",
+      "note": "Legendary stall serving fluffy bhature with spicy chole, a CP morning staple since the 1940s.",
+      "photo_url": null
+    },
+    {
+      "id": 18,
+      "destination_id": 5,
+      "name": "Kuremal Mohan Lal Kulfi",
+      "note": "Heritage kulfi shop offering creamy, aromatic flavors like saffron and seasonal bhang kulfi, famous among locals.",
+      "photo_url": null
+    },
+    {
+      "id": 19,
+      "destination_id": 5,
+      "name": "Momo Mom stall",
+      "note": "Popular kiosk in the inner‑circle food court, serving steaming dumplings with rich Tibetan‑Indian fillings.",
+      "photo_url": null
+    },
+    {
+      "id": 20,
+      "destination_id": 5,
+      "name": "Connaught Coffee House",
+      "note": "Historic café on the outer circle, known for its classic pastries, strong coffee, and old‑Delhi charm.",
+      "photo_url": null
+    },
+    {
+      "id": 37,
+      "destination_id": 10,
+      "name": "Khan Chacha",
+      "note": "Renowned for buttery, charcoal‑grilled kebab rolls that have become a market staple.",
+      "photo_url": null
+    },
+    {
+      "id": 38,
+      "destination_id": 10,
+      "name": "Keventers",
+      "note": "Original outlet serves classic thick milkshakes and retro ice‑cream sundaes loved by locals.",
+      "photo_url": null
+    },
+    {
+      "id": 39,
+      "destination_id": 10,
+      "name": "Shahji Biryani",
+      "note": "Offers authentic Hyderabadi biryani, a go‑to spot for fragrant, layered rice dishes.",
+      "photo_url": null
+    },
+    {
+      "id": 40,
+      "destination_id": 10,
+      "name": "Momo‑Masti",
+      "note": "Tiny kiosk delivering steamed and fried momos with diverse sauces, a favorite quick bite.",
+      "photo_url": null
+    },
+    {
+      "id": 41,
+      "destination_id": 2,
+      "name": "The Beer Café",
+      "note": "Iconic micro‑brewery known for craft beers, wood‑fired pizza and bustling bar‑food vibe.",
+      "photo_url": null
+    },
+    {
+      "id": 42,
+      "destination_id": 2,
+      "name": "Social",
+      "note": "Trendy café‑bar offering fusion plates like truffle fries, paneer tikka sliders, with a lively ambience.",
+      "photo_url": null
+    },
+    {
+      "id": 43,
+      "destination_id": 2,
+      "name": "SodaBottleOpenerWala",
+      "note": "Parsi‑Irani eatery famed for berry pulao, salli boti and retro‑styled soda‑bottle‑opener drinks.",
+      "photo_url": null
+    },
+    {
+      "id": 44,
+      "destination_id": 2,
+      "name": "The HAUZ Khas Food Street",
+      "note": "Cluster of street‑food stalls serving chaat, momos, kebabs and Indian‑Chinese bites near the historic complex.",
+      "photo_url": null
+    },
+    {
+      "id": 45,
+      "destination_id": 3,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Crispy pani‑purri, aloo tikki served from vendors clustered by the garden’s gate.",
+      "photo_url": null
+    },
+    {
+      "id": 46,
+      "destination_id": 3,
+      "name": "Kathi roll stalls along the pathways",
+      "note": "Wraps filled with chicken or paneer, a lunchtime favorite for walkers.",
+      "photo_url": null
+    },
+    {
+      "id": 47,
+      "destination_id": 3,
+      "name": "Fresh fruit juice and mocktail kiosks",
+      "note": "Cool mango, orange, mixed‑fruit drinks sold from small stands beside the lawns.",
+      "photo_url": null
+    },
+    {
+      "id": 48,
+      "destination_id": 3,
+      "name": "Ice‑cream & kulfi kiosk",
+      "note": "Traditional kulfi and soft‑serve ice‑cream enjoyed on sunny afternoons.",
+      "photo_url": null
+    },
+    {
+      "id": 49,
+      "destination_id": 4,
+      "name": "Aloo Tikki Chaat",
+      "note": "Crispy potato patties with tangy chutneys from chaat stalls near the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 50,
+      "destination_id": 4,
+      "name": "Momos",
+      "note": "Steamed and fried Himalayan dumplings sold at bustling Momos stalls throughout the food court.",
+      "photo_url": null
+    },
+    {
+      "id": 51,
+      "destination_id": 4,
+      "name": "South Indian Dosa & Idli",
+      "note": "Thin fermented rice crepes and fluffy steamed rice cakes served at the South India Food Court.",
+      "photo_url": null
+    },
+    {
+      "id": 52,
+      "destination_id": 4,
+      "name": "Regional mithai stalls",
+      "note": "Different Indian states run rotating food stalls here, several offering fresh regional sweets like barfi and peda.",
+      "photo_url": null
+    },
+    {
+      "id": 53,
+      "destination_id": 6,
+      "name": "Aloo Tikki & Chaat (entrance kiosks)",
+      "note": "Crispy potato patties and tangy chaat sold at stalls lining the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 54,
+      "destination_id": 6,
+      "name": "Pani Puri / Gol Gappa (gate vendors)",
+      "note": "Bursting water‑filled puris offered by roaming vendors near the main gate.",
+      "photo_url": null
+    },
+    {
+      "id": 55,
+      "destination_id": 6,
+      "name": "Muradabadi Shahi Biryani, Nizamuddin",
+      "note": "Well-known biryani spot in the Nizamuddin lanes, a short walk from the tomb, known for its Mughlai-style chicken biryani.",
+      "photo_url": null
+    },
+    {
+      "id": 56,
+      "destination_id": 6,
+      "name": "Masala Chai (ASI tea stall)",
+      "note": "Traditional spiced tea sold at the ASI‑run tea stall near the visitor centre.",
+      "photo_url": null
+    },
+    {
+      "id": 57,
+      "destination_id": 7,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Fresh pani puri and aloo tikki served to shoppers right at the market’s entry.",
+      "photo_url": null
+    },
+    {
+      "id": 58,
+      "destination_id": 7,
+      "name": "Momos from vendors along the food court",
+      "note": "Steamed and fried momos with chili‑garlic sauce are a quick snack for bargain hunters.",
+      "photo_url": null
+    },
+    {
+      "id": 59,
+      "destination_id": 7,
+      "name": "Kathi Roll stall near the metro exit",
+      "note": "Spicy chicken or paneer rolls wrapped in paratha are a lunchtime favorite for visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 60,
+      "destination_id": 7,
+      "name": "Jalebi & Imarti from a sweet‑shop kiosk in the central lane",
+      "note": "Hot, syrup‑soaked spirals sold to cool down after hours of shopping.",
+      "photo_url": null
+    },
+    {
+      "id": 61,
+      "destination_id": 8,
+      "name": "Aloo Tikki & Chole Bhature",
+      "note": "Crispy potato patties and fluffy chole‑bhature served at stalls near the market entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 62,
+      "destination_id": 8,
+      "name": "Momos",
+      "note": "Steamed and fried Tibetan momos sold by popular vendors, a favorite among DU students.",
+      "photo_url": null
+    },
+    {
+      "id": 63,
+      "destination_id": 8,
+      "name": "Kathi Rolls",
+      "note": "Wraps filled with egg, paneer or chicken from busy roll stalls along the central lane.",
+      "photo_url": null
+    },
+    {
+      "id": 64,
+      "destination_id": 8,
+      "name": "Jalebi & Rabri",
+      "note": "Hot, syrupy jalebis paired with thick rabri from a dedicated sweet shop in the market.",
+      "photo_url": null
+    },
+    {
+      "id": 65,
+      "destination_id": 9,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Serve fresh pani puri, aloo tikki, papri chaat, iconic park snack.",
+      "photo_url": null
+    },
+    {
+      "id": 66,
+      "destination_id": 9,
+      "name": "Samosa stall at the Snack Corner",
+      "note": "Crisp, hot samosas & kachoris, a go‑to bite for visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 67,
+      "destination_id": 9,
+      "name": "Kulfi/ice‑cream kiosk near the Scent Garden",
+      "note": "Offers traditional kulfi and soft‑serve, perfect for warm days.",
+      "photo_url": null
+    },
+    {
+      "id": 68,
+      "destination_id": 9,
+      "name": "Masala chai stall near the Scent Garden",
+      "note": "Steaming chai with biscuits, a comforting pause amid the greenery.",
+      "photo_url": null
+    },
+    {
+      "id": 69,
+      "destination_id": 11,
+      "name": "Pani Puri stalls near the main entrance",
+      "note": "Crisp puris filled with tangy water served by chaat vendors lining the India Gate lawns.",
+      "photo_url": null
+    },
+    {
+      "id": 70,
+      "destination_id": 11,
+      "name": "Aloo Tikki Chaat from lawn-side chaat stalls",
+      "note": "Fried potato patties topped with yogurt, chutneys and sev, a favorite snack for visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 71,
+      "destination_id": 11,
+      "name": "Kulfi from ice‑cream carts near the entrance",
+      "note": "Traditional malai kulfi served in paper cones, perfect for warm Delhi evenings.",
+      "photo_url": null
+    },
+    {
+      "id": 72,
+      "destination_id": 11,
+      "name": "Momos from a small kiosk on the Connaught Place side",
+      "note": "Steamed or fried dumplings offered by a modest momos stall close to the monument.",
+      "photo_url": null
+    },
+    {
+      "id": 73,
+      "destination_id": 12,
+      "name": "Karim’s Restaurant",
+      "note": "Historic 1913 eatery near Jama Masjid, famed for Mughlai kebabs and biryani.",
+      "photo_url": null
+    },
+    {
+      "id": 74,
+      "destination_id": 12,
+      "name": "Al Jawahar Restaurant",
+      "note": "Legendary Mughlai spot opposite Red Fort, celebrated for mutton korma and succulent kebabs.",
+      "photo_url": null
+    },
+    {
+      "id": 75,
+      "destination_id": 12,
+      "name": "Paranthe Wali Gali",
+      "note": "Narrow lane of stuffed paratha stalls in Chandni Chowk, a short walk from the fort.",
+      "photo_url": null
+    },
+    {
+      "id": 76,
+      "destination_id": 12,
+      "name": "Jalebi & Imarti stalls",
+      "note": "Street vendors around the fort’s bazaars selling fresh, syrup‑soaked jalebi and crispy imarti.",
+      "photo_url": null
+    },
+    {
+      "id": 77,
+      "destination_id": 13,
+      "name": "Pani Puri stalls near the parking area",
+      "note": "Crisp puris filled with tangy tamarind water, a staple snack for visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 78,
+      "destination_id": 13,
+      "name": "Aloo Tikki Chaat carts at the main entrance",
+      "note": "Spiced potato patties topped with chutneys, yogurt, and sev.",
+      "photo_url": null
+    },
+    {
+      "id": 79,
+      "destination_id": 13,
+      "name": "Paratha rolls from the roadside paratha vendor",
+      "note": "Hot butter‑floured flatbreads stuffed with seasoned potatoes or paneer.",
+      "photo_url": null
+    },
+    {
+      "id": 80,
+      "destination_id": 13,
+      "name": "Chole Bhature kiosks within the Qutub complex",
+      "note": "Fluffy fried bhature served with spicy chickpea curry, perfect for a hearty lunch.",
+      "photo_url": null
+    },
+    {
+      "id": 81,
+      "destination_id": 14,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Serve hot aloo‑tikki and papri‑chaat, a favorite snack for visitors entering the temple.",
+      "photo_url": null
+    },
+    {
+      "id": 82,
+      "destination_id": 14,
+      "name": "Pani Puri/Golgappa vendors on the adjacent Mahipalpur‑Sanjay Vihar road",
+      "note": "Offer tangy water‑filled puris that many tourists enjoy after touring the hall.",
+      "photo_url": null
+    },
+    {
+      "id": 83,
+      "destination_id": 14,
+      "name": "Fresh fruit juice and lassi carts beside the visitor centre",
+      "note": "Provide seasonal fruit shakes and cool lassi, perfect for Delhi’s heat.",
+      "photo_url": null
+    },
+    {
+      "id": 84,
+      "destination_id": 14,
+      "name": "Ice‑cream/kulfi carts within the temple gardens",
+      "note": "Hand‑held desserts popular among families strolling the reflecting pool.",
+      "photo_url": null
+    },
+    {
+      "id": 85,
+      "destination_id": 15,
+      "name": "Pani Puri",
+      "note": "Crisp hollow shells filled with tamarind water, sold by stalls right outside the main gate.",
+      "photo_url": null
+    },
+    {
+      "id": 86,
+      "destination_id": 15,
+      "name": "Aloo Tikki",
+      "note": "Spiced potato patties served with chutneys from kiosks near the parking area.",
+      "photo_url": null
+    },
+    {
+      "id": 87,
+      "destination_id": 15,
+      "name": "Chole Bhature",
+      "note": "Hearty chickpea curry with fluffy deep‑fried bhature offered at nearby dhaba‑style stalls.",
+      "photo_url": null
+    },
+    {
+      "id": 88,
+      "destination_id": 15,
+      "name": "Mithai (Indian sweets)",
+      "note": "Assorted traditional sweets like gulab jamun and kaju barfi sold at the temple’s sweet kiosk.",
+      "photo_url": null
+    },
+    {
+      "id": 89,
+      "destination_id": 16,
+      "name": "Karim’s",
+      "note": "Renowned Mughlai restaurant serving buttery mutton kebabs and fragrant biryani right opposite the mosque.",
+      "photo_url": null
+    },
+    {
+      "id": 90,
+      "destination_id": 16,
+      "name": "Al Jawahar",
+      "note": "Historic eatery famed for rich mutton korma and succulent chicken tikka, a short walk from the masjid.",
+      "photo_url": null
+    },
+    {
+      "id": 91,
+      "destination_id": 16,
+      "name": "Nathu’s Kachori",
+      "note": "Legendary kachori stall offering deep‑fried, spicy kachoris and aloo tikki near the mosque entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 92,
+      "destination_id": 16,
+      "name": "Gali Paranthe Wali",
+      "note": "Narrow lane of families cooking stuffed, tandoor‑baked parathas with diverse fillings beside Jama Masjid.",
+      "photo_url": null
+    },
+    {
+      "id": 93,
+      "destination_id": 17,
+      "name": "Aloo Tikki Chaat (stall near main entrance)",
+      "note": "Crisp patties topped with tangy tamarind and mint chutney at stalls near the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 94,
+      "destination_id": 17,
+      "name": "Papdi Chaat / Sev Puri (Purana Qila Food Street)",
+      "note": "Fresh papdis layered with potatoes, chutneys, and crunchy sev on the dedicated food street.",
+      "photo_url": null
+    },
+    {
+      "id": 95,
+      "destination_id": 17,
+      "name": "Mughlai Kebabs (gate‑side kebab stalls)",
+      "note": "Juicy, spiced grilled kebabs reflecting royal Delhi flavors sold by small stalls near the gate.",
+      "photo_url": null
+    },
+    {
+      "id": 96,
+      "destination_id": 17,
+      "name": "Lassi & Sweet Kulfi (heritage‑food stalls)",
+      "note": "Thick, creamy lassi and flavored kulfis offered alongside chaat on the heritage food street.",
+      "photo_url": null
+    },
+    {
+      "id": 97,
+      "destination_id": 18,
+      "name": "Aloo Tikki",
+      "note": "Crispy potato patties sold by kiosks right outside the Baoli’s main entrance on Hailey Road.",
+      "photo_url": null
+    },
+    {
+      "id": 98,
+      "destination_id": 18,
+      "name": "Pani Puri / Golgappa",
+      "note": "Tangy golgappa served by chaat stalls clustered near the Baoli’s steps.",
+      "photo_url": null
+    },
+    {
+      "id": 99,
+      "destination_id": 18,
+      "name": "Masala Chai",
+      "note": "Strong spiced tea from a roadside tea stall popular with visitors before exploring the well.",
+      "photo_url": null
+    },
+    {
+      "id": 100,
+      "destination_id": 18,
+      "name": "Kulfi / Falooda",
+      "note": "Cold Indian desserts from ice‑cream carts stationed near the Baoli’s entrance, especially in summer.",
+      "photo_url": null
+    },
+    {
+      "id": 101,
+      "destination_id": 19,
+      "name": "Pani Puri (Golgappa) stalls at the main gate",
+      "note": "Pani Puri stalls at the main gate, known for crisp puris and tangy tamarind water.",
+      "photo_url": null
+    },
+    {
+      "id": 102,
+      "destination_id": 19,
+      "name": "Evening Momos vendors",
+      "note": "Momos vendors set up each evening, offering steamed and fried Tibetan-style dumplings.",
+      "photo_url": null
+    },
+    {
+      "id": 103,
+      "destination_id": 19,
+      "name": "Ice‑cream cart near the entrance",
+      "note": "Ice‑cream cart near the entrance, famous for Gulab Jamun‑flavoured scoops.",
+      "photo_url": null
+    },
+    {
+      "id": 104,
+      "destination_id": 19,
+      "name": "Fresh fruit and sugarcane juice stalls on the south side",
+      "note": "Fresh fruit and sugarcane juice stalls on the south side, praised for chilled, natural drinks.",
+      "photo_url": null
+    },
+    {
+      "id": 105,
+      "destination_id": 20,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Serve crisp pani puri, aloo tikki and papri chaat right by the park gate.",
+      "photo_url": null
+    },
+    {
+      "id": 106,
+      "destination_id": 20,
+      "name": "Momos from the stall along the jogging track",
+      "note": "Steamed and fried dumplings popular with walkers and families.",
+      "photo_url": null
+    },
+    {
+      "id": 107,
+      "destination_id": 20,
+      "name": "Ice‑cream cart near the children’s play area",
+      "note": "Offers soft‑serve cones and cups, a favorite treat for kids.",
+      "photo_url": null
+    },
+    {
+      "id": 108,
+      "destination_id": 20,
+      "name": "Fresh fruit‑juice stalls near the entrance",
+      "note": "Seasonal juices like sugarcane, mosambi and orange sold daily.",
+      "photo_url": null
+    },
+    {
+      "id": 109,
+      "destination_id": 21,
+      "name": "Keventers Milkshakes",
+      "note": "Thick, frothy milkshakes like Chocolate Fudge are a signature draw at the food‑court.",
+      "photo_url": null
+    },
+    {
+      "id": 110,
+      "destination_id": 21,
+      "name": "Big Chill Café",
+      "note": "Known for pasta, pizza and the indulgent Chocolate Fondue dessert, a favorite hang‑out spot.",
+      "photo_url": null
+    },
+    {
+      "id": 111,
+      "destination_id": 21,
+      "name": "SodaBottleOpenerWala",
+      "note": "Offers authentic Parsi‑Irani dishes such as Berry Pulao and Sali Boti, adding quirky charm.",
+      "photo_url": null
+    },
+    {
+      "id": 112,
+      "destination_id": 21,
+      "name": "Biryani By Kilo",
+      "note": "Serves hand‑pressed Hyderabadi Dum Biryani in traditional kilo containers, renowned for aroma.",
+      "photo_url": null
+    },
+    {
+      "id": 113,
+      "destination_id": 22,
+      "name": "Kuremal (Kulfi & Desserts)",
+      "note": "Famous for its creamy kulfi and classic Indian desserts, a sweet highlight of the mall.",
+      "photo_url": null
+    },
+    {
+      "id": 114,
+      "destination_id": 22,
+      "name": "Momo Junction",
+      "note": "Offers steaming hot momos, both veg and non‑veg, at the bustling food court.",
+      "photo_url": null
+    },
+    {
+      "id": 115,
+      "destination_id": 22,
+      "name": "The Chocolate Room",
+      "note": "Chocolate‑themed café serving rich cakes, brownies, and specialty hot drinks.",
+      "photo_url": null
+    },
+    {
+      "id": 116,
+      "destination_id": 22,
+      "name": "Naturals Ice Cream",
+      "note": "Serves fresh fruit‑based ice creams and classic flavors, a favourite cooling treat.",
+      "photo_url": null
+    },
+    {
+      "id": 117,
+      "destination_id": 23,
+      "name": "Momos (steamed or fried dumplings)",
+      "note": "Iconic Tibetan dumplings sold at dozens of stalls along the food lane.",
+      "photo_url": null
+    },
+    {
+      "id": 118,
+      "destination_id": 23,
+      "name": "Thukpa (spicy Tibetan noodle soup)",
+      "note": "Hearty broth with hand‑pulled noodles, a comfort staple for locals and visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 119,
+      "destination_id": 23,
+      "name": "Tingmo (soft Tibetan steamed bread)",
+      "note": "Fluffy, pillowy buns served with veg or meat gravies, unique to the enclave.",
+      "photo_url": null
+    },
+    {
+      "id": 120,
+      "destination_id": 23,
+      "name": "Butter Tea (Po Cha)",
+      "note": "Salty tea blended with yak butter, offered at tea kiosks near the market.",
+      "photo_url": null
+    },
+    {
+      "id": 121,
+      "destination_id": 24,
+      "name": "Kathi Rolls (stall near main gate)",
+      "note": "Crispy kebab‑filled rolls served from a popular stall just outside the village entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 122,
+      "destination_id": 24,
+      "name": "Momos (market lane stall)",
+      "note": "Steamed dumplings with spicy sauce sold by a tiny momo kiosk along the market lane.",
+      "photo_url": null
+    },
+    {
+      "id": 123,
+      "destination_id": 24,
+      "name": "Papri / Aloo‑Tikki Chaat (Chaat Corner)",
+      "note": "Tangy papri‑chaat and aloo‑tikki topped with chutneys from the bustling chaat corner.",
+      "photo_url": null
+    },
+    {
+      "id": 124,
+      "destination_id": 24,
+      "name": "Pani Puri (roadside vendor)",
+      "note": "Fresh, crunchy golgappe with tamarind‑mint water from a dedicated pani puri vendor.",
+      "photo_url": null
+    },
+    {
+      "id": 125,
+      "destination_id": 25,
+      "name": "Tea and Masala Chai at the tea stall near the Rajghat entrance",
+      "note": "Steaming masala chai served by a small kiosk right at the memorial's main gate.",
+      "photo_url": null
+    },
+    {
+      "id": 126,
+      "destination_id": 25,
+      "name": "Chaat stalls near the Gandhi Smriti museum entrance",
+      "note": "Tangy‑spicy chaat mixes sold by carts just outside the museum.",
+      "photo_url": null
+    },
+    {
+      "id": 127,
+      "destination_id": 25,
+      "name": "Fresh fruit juices (sugarcane, orange) from the on‑site kiosk",
+      "note": "Cold, freshly‑pressed juices offered at a kiosk within the Rajghat grounds.",
+      "photo_url": null
+    },
+    {
+      "id": 128,
+      "destination_id": 25,
+      "name": "Gandhi Smriti Café inside the museum complex",
+      "note": "Modest café serving tea, sandwiches, and biscuits to visitors of Gandhi Smriti.",
+      "photo_url": null
+    },
+    {
+      "id": 129,
+      "destination_id": 26,
+      "name": "Langar (community kitchen)",
+      "note": "Free daily vegetarian meal served communal style, symbolizing equality and hospitality.",
+      "photo_url": null
+    },
+    {
+      "id": 130,
+      "destination_id": 26,
+      "name": "Chole Bhature (street stall near main gate)",
+      "note": "Spicy chickpea curry with fluffy fried bread sold by vendors just outside the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 131,
+      "destination_id": 26,
+      "name": "Jalebi (sweet cart beside entrance)",
+      "note": "Orange‑twisted deep‑fried syrup‑soaked sweets enjoyed by visitors after prayers.",
+      "photo_url": null
+    },
+    {
+      "id": 132,
+      "destination_id": 26,
+      "name": "Fruit Chaat (vendor near Langar entrance)",
+      "note": "Fresh seasonal fruit tossed with chaat masala, offered by a nearby fruit‑vendor cart.",
+      "photo_url": null
+    },
+    {
+      "id": 133,
+      "destination_id": 27,
+      "name": "Besan Laddus / Motichoor Laddus",
+      "note": "Fresh, soft laddus offered as daily prasad, sold by nearby sweet stalls.",
+      "photo_url": null
+    },
+    {
+      "id": 134,
+      "destination_id": 27,
+      "name": "Kesar Peda",
+      "note": "Golden saffron‑flavored pedas given as prasad and popular with visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 135,
+      "destination_id": 27,
+      "name": "Jalebi stand near the temple",
+      "note": "Crisp, hot jalebis prepared by a dedicated vendor just outside the temple entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 136,
+      "destination_id": 27,
+      "name": "Aloo Tikki Chaat stalls near the main entrance",
+      "note": "Crispy aloo tikki chaat topped with tangy chutneys, famed by devotees.",
+      "photo_url": null
+    },
+    {
+      "id": 137,
+      "destination_id": 28,
+      "name": "Aloo Tikki Chaat",
+      "note": "Crispy potato patties with tangy chutneys from chaat stalls near the entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 138,
+      "destination_id": 28,
+      "name": "Pani Puri (Gol Gappa)",
+      "note": "Crisp puris filled with spicy water sold by vendors along the monument’s pathways.",
+      "photo_url": null
+    },
+    {
+      "id": 139,
+      "destination_id": 28,
+      "name": "Bhel Puri",
+      "note": "Light, crunchy puffed‑rice snack from a cart parked near the Samrat Yantra.",
+      "photo_url": null
+    },
+    {
+      "id": 140,
+      "destination_id": 28,
+      "name": "Kulfi (mango, malai, saffron)",
+      "note": "Traditional frozen dairy treat sold by a small stand just outside the complex.",
+      "photo_url": null
+    },
+    {
+      "id": 141,
+      "destination_id": 29,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Crisp, tangy chaat served by vendors just outside the tomb’s gate.",
+      "photo_url": null
+    },
+    {
+      "id": 142,
+      "destination_id": 29,
+      "name": "Aloo‑Tikki chaat in the garden area",
+      "note": "Fried potato patties topped with chutneys, popular among visitors strolling the lawns.",
+      "photo_url": null
+    },
+    {
+      "id": 143,
+      "destination_id": 29,
+      "name": "Pani Puri (Gol Gappa) from nearby kiosks",
+      "note": "Bursting‑flavour water‑filled puris sold close to the monument’s parking lot.",
+      "photo_url": null
+    },
+    {
+      "id": 144,
+      "destination_id": 29,
+      "name": "Fresh Lassi from tea‑tapri stalls",
+      "note": "Cool yogurt drink offered by roadside tea stalls near the visitor centre.",
+      "photo_url": null
+    },
+    {
+      "id": 145,
+      "destination_id": 30,
+      "name": "Aloo Tikki & Chole Chaat stalls near the main gate",
+      "note": "Spicy potato patty with chickpea chaat served by vendors right at the fort’s main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 146,
+      "destination_id": 30,
+      "name": "Chai & Pakoras evening tea stalls",
+      "note": "Masala chai paired with fresh onion/vegetable pakoras from roadside tea stalls at dusk.",
+      "photo_url": null
+    },
+    {
+      "id": 147,
+      "destination_id": 30,
+      "name": "Masala Corn cart near the gate",
+      "note": "Roasted corn tossed in butter, lemon, and chat masala sold from a cart beside the entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 148,
+      "destination_id": 30,
+      "name": "Momos from vendors near the parking area",
+      "note": "Steamed Tibetan-style veg or chicken momos offered by small stalls close to the parking lot.",
+      "photo_url": null
+    },
+    {
+      "id": 149,
+      "destination_id": 31,
+      "name": "Aloo‑tikki and papri‑chat from chaat stalls near the fort entrance",
+      "note": "Crisp, tangy chaat served right by the main gate, famous among visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 150,
+      "destination_id": 31,
+      "name": "Seekh and shami kebabs from vendors around the stadium perimeter",
+      "note": "Grilled kebabs popular with match‑day crowds, smoked over open flames.",
+      "photo_url": null
+    },
+    {
+      "id": 151,
+      "destination_id": 31,
+      "name": "Samosas from street carts near the stadium gates",
+      "note": "Golden fried samosas, often stuffed with spicy potato, sold to fans entering matches.",
+      "photo_url": null
+    },
+    {
+      "id": 152,
+      "destination_id": 31,
+      "name": "Mughlai biryani from biryani stalls serving cricket‑match crowds",
+      "note": "Rich chicken or mutton biryani, aromatic, a go‑to meal for spectators.",
+      "photo_url": null
+    },
+    {
+      "id": 153,
+      "destination_id": 32,
+      "name": "Chaat stalls near the lake pathways",
+      "note": "Vibrant chaat kiosks line the walking trail, offering classic Delhi street snacks.",
+      "photo_url": null
+    },
+    {
+      "id": 154,
+      "destination_id": 32,
+      "name": "Momos & thukpa stalls",
+      "note": "Steamy momos and hearty thukpa sold to joggers seeking warmth.",
+      "photo_url": null
+    },
+    {
+      "id": 155,
+      "destination_id": 32,
+      "name": "Fresh fruit‑juice kiosks (sugarcane, aam‑panna)",
+      "note": "Seasonal juice carts serve cooling sugarcane and aam‑panna during summer.",
+      "photo_url": null
+    },
+    {
+      "id": 156,
+      "destination_id": 32,
+      "name": "Ice‑cream & kulfi carts",
+      "note": "Cold desserts on wheels attract families on weekends, especially in heat.",
+      "photo_url": null
+    },
+    {
+      "id": 157,
+      "destination_id": 33,
+      "name": "Chaat stalls (Papdi Chaat, Aloo Tikki, Bhel Puri)",
+      "note": "Colorful chaat carts line the promenade, serving crisp, tangy snacks to visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 158,
+      "destination_id": 33,
+      "name": "Pani Puri / Gol‑Gappa stalls",
+      "note": "Freshly filled pani puri sold from kiosks, a favorite evening bite.",
+      "photo_url": null
+    },
+    {
+      "id": 159,
+      "destination_id": 33,
+      "name": "Ice‑cream and Kulfi kiosks",
+      "note": "Lakeside counters offer traditional kulfi and assorted ice‑cream flavors for a cool treat.",
+      "photo_url": null
+    },
+    {
+      "id": 160,
+      "destination_id": 33,
+      "name": "Fresh fruit juice & lemonade stalls",
+      "note": "Vendors serve sugarcane, orange juice and salted‑lemon drinks beside the lake.",
+      "photo_url": null
+    },
+    {
+      "id": 161,
+      "destination_id": 34,
+      "name": "Aloo Tikki Chaat (park entrance stalls)",
+      "note": "Crispy potato patties topped with chutneys, sold by stalls right at the main gate.",
+      "photo_url": null
+    },
+    {
+      "id": 162,
+      "destination_id": 34,
+      "name": "Papri Chaat (near entrance)",
+      "note": "Flat fried discs with potatoes and yogurt, offered by the same chaat vendors.",
+      "photo_url": null
+    },
+    {
+      "id": 163,
+      "destination_id": 34,
+      "name": "Samosa Corner",
+      "note": "Golden, spicy potato samosas from a dedicated cart close to the gate.",
+      "photo_url": null
+    },
+    {
+      "id": 164,
+      "destination_id": 34,
+      "name": "Chole Bhature cart",
+      "note": "Fluffy bhature paired with spicy chickpea curry, served near the park’s main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 165,
+      "destination_id": 35,
+      "name": "Pani Puri stalls near the main gate",
+      "note": "Crisp puris served with tangy tamarind water from a kiosk right at the entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 166,
+      "destination_id": 35,
+      "name": "Aloo Tikki chaat from the “Chaat Corner” near the entrance",
+      "note": "Spiced potato patties topped with yogurt, chutney and sev, popular weekend snack.",
+      "photo_url": null
+    },
+    {
+      "id": 167,
+      "destination_id": 35,
+      "name": "Masala Chai & Snacks at the small wooden counter by the gate",
+      "note": "Hot tea with biscuits or pakoras, especially enjoyed during cooler mornings.",
+      "photo_url": null
+    },
+    {
+      "id": 168,
+      "destination_id": 35,
+      "name": "Fruit juice/coconut water cart for joggers",
+      "note": "Fresh orange, mango juices or coconut water sold from a mobile cart along the trail.",
+      "photo_url": null
+    },
+    {
+      "id": 169,
+      "destination_id": 37,
+      "name": "Pani Puri (Gol Gappe) from chaat stalls near the Metro exit",
+      "note": "Crisp puris filled with tangy tamarind water, a crowd‑pleaser at the market’s entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 170,
+      "destination_id": 37,
+      "name": "Aloo Tikki & Bhalla street‑carts",
+      "note": "Golden potato patties and spicy lentil dumplings served hot from nearby carts.",
+      "photo_url": null
+    },
+    {
+      "id": 171,
+      "destination_id": 37,
+      "name": "Haldiram’s sweet shop",
+      "note": "Renowned outlet offering fresh jalebi, gulab jamun, and traditional Indian sweets.",
+      "photo_url": null
+    },
+    {
+      "id": 172,
+      "destination_id": 37,
+      "name": "Kulfi & Falooda stalls",
+      "note": "Cool, creamy kulfi and rose‑scented falooda sold from carts staying open late.",
+      "photo_url": null
+    },
+    {
+      "id": 173,
+      "destination_id": 38,
+      "name": "Shri Krishna Chaat Bhandar",
+      "note": "Crispy aloo tikki and papri chaat served at the stall near the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 174,
+      "destination_id": 38,
+      "name": "Bikaner Sweet House",
+      "note": "Renowned for fresh, piping‑hot jalebis and classic Indian mithai inside the market.",
+      "photo_url": null
+    },
+    {
+      "id": 175,
+      "destination_id": 38,
+      "name": "Momo Corner",
+      "note": "Steamed and fried Tibetan momos sold from a dedicated kiosk in the food court.",
+      "photo_url": null
+    },
+    {
+      "id": 176,
+      "destination_id": 38,
+      "name": "Giani’s Ice Cream",
+      "note": "Offers creamy scoops and traditional falooda drinks, a favorite refreshment for shoppers.",
+      "photo_url": null
+    },
+    {
+      "id": 177,
+      "destination_id": 39,
+      "name": "Sita Ram Diwan Chand – Aloo Paratha",
+      "note": "Renowned for buttery, stuffed aloo parathas served hot on the main lane.",
+      "photo_url": null
+    },
+    {
+      "id": 178,
+      "destination_id": 39,
+      "name": "Kuremal Mohan Lal Kulfi",
+      "note": "Famous outlet offering creamy kulfis, especially mango and malai, with rose‑syrup drizzle.",
+      "photo_url": null
+    },
+    {
+      "id": 179,
+      "destination_id": 39,
+      "name": "Moti Mahal (M Block)",
+      "note": "Cozy spot serving classic butter chicken, dal makhani and fresh naan, beloved by locals.",
+      "photo_url": null
+    },
+    {
+      "id": 180,
+      "destination_id": 39,
+      "name": "Riyaz’s Shawarma & Rolls",
+      "note": "Quick‑serve stall known for juicy chicken/paneer shawarmas with garlic mayo and pickled carrots.",
+      "photo_url": null
+    },
+    {
+      "id": 181,
+      "destination_id": 40,
+      "name": "Moscow Bakery",
+      "note": "Famous for rich brownies and cupcakes; a must‑stop for bakery lovers in the market.",
+      "photo_url": null
+    },
+    {
+      "id": 182,
+      "destination_id": 40,
+      "name": "Raja Kachori",
+      "note": "Renowned stall serving ultra‑crispy kachoris and spicy aloo samosas right beside the main lane.",
+      "photo_url": null
+    },
+    {
+      "id": 183,
+      "destination_id": 40,
+      "name": "Kailash Parbat",
+      "note": "Popular chaats outlet, especially its sooji halwa and tangy bhalla papdi.",
+      "photo_url": null
+    },
+    {
+      "id": 184,
+      "destination_id": 40,
+      "name": "Sharma’s Ice Cream",
+      "note": "Small parlour offering Indian‑flavoured ice‑cream and gelato, a sweet treat after market strolls.",
+      "photo_url": null
+    },
+    {
+      "id": 185,
+      "destination_id": 41,
+      "name": "National Museum Café",
+      "note": "On‑site café serving sandwiches, tea, coffee and Indian sweets like jalebi and gulab jamun.",
+      "photo_url": null
+    },
+    {
+      "id": 186,
+      "destination_id": 41,
+      "name": "Kathi Rolls from Janpath street vendors",
+      "note": "Spicy kebab‑filled rolls sold by stalls just outside the museum’s Janpath entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 187,
+      "destination_id": 41,
+      "name": "Pani Puri stalls near the main gate",
+      "note": "Crisp puris filled with tangy tamarind water offered by vendors beside the entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 188,
+      "destination_id": 41,
+      "name": "Momos from nearby food carts",
+      "note": "Steamed or fried dumplings served by small carts a short walk from the museum.",
+      "photo_url": null
+    },
+    {
+      "id": 189,
+      "destination_id": 42,
+      "name": "Presidential “Tea”",
+      "note": "Special blend served to official guests in the State Reception Hall, a unique presidential tradition.",
+      "photo_url": null
+    },
+    {
+      "id": 190,
+      "destination_id": 42,
+      "name": "Rashtrapati Bhavan “Biscuit”",
+      "note": "Light short‑bread biscuit baked in the presidential kitchen for state functions.",
+      "photo_url": null
+    },
+    {
+      "id": 191,
+      "destination_id": 42,
+      "name": "Mughal‑Garden Fresh Produce",
+      "note": "Seasonal strawberries, roses and vegetables harvested from the estate’s gardens for banquet dishes.",
+      "photo_url": null
+    },
+    {
+      "id": 192,
+      "destination_id": 42,
+      "name": "Mughlai Biryani",
+      "note": "Signature biryani prepared for diplomatic banquets, highlighted in media coverage of state visits.",
+      "photo_url": null
+    },
+    {
+      "id": 193,
+      "destination_id": 36,
+      "name": "Aloo Tikki Chaat (chaat stalls near the central arch)",
+      "note": "Crispy potato patties topped with yogurt, chutney, sev; iconic snack at Janpath’s central hub.",
+      "photo_url": null
+    },
+    {
+      "id": 194,
+      "destination_id": 36,
+      "name": "Pani Puri (Janpath Chaat Corner)",
+      "note": "Tangy water-filled puris served from a dedicated corner, a favorite for quick bites.",
+      "photo_url": null
+    },
+    {
+      "id": 195,
+      "destination_id": 36,
+      "name": "Kathi Rolls (vendors near market entrance)",
+      "note": "Wraps stuffed with butter‑chicken or paneer, popular handheld meal for shoppers.",
+      "photo_url": null
+    },
+    {
+      "id": 196,
+      "destination_id": 36,
+      "name": "Momos (stall near Janpath Metro exit)",
+      "note": "Steamed or fried dumplings, veg and chicken fillings, enjoyed by commuters and tourists.",
+      "photo_url": null
+    },
+    {
+      "id": 197,
+      "destination_id": 43,
+      "name": "Khan Chacha",
+      "note": "Renowned for buttery chicken rolls and seekh kebab rolls right at the Qutub Minar entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 198,
+      "destination_id": 43,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Pani puri, aloo tikki, and papri chaat served from vibrant stalls beside the entry gate.",
+      "photo_url": null
+    },
+    {
+      "id": 199,
+      "destination_id": 43,
+      "name": "Kulfi carts near the parking area",
+      "note": "Cold mango, pistachio and rose‑flavored kulfi sold from portable coolers by the parking lot.",
+      "photo_url": null
+    },
+    {
+      "id": 200,
+      "destination_id": 43,
+      "name": "Fresh fruit juice & coconut water carts",
+      "note": "Seasonal juice and coconut water carts offer chilled drinks for thirsty visitors during hot days.",
+      "photo_url": null
+    },
+    {
+      "id": 201,
+      "destination_id": 44,
+      "name": "Nizamuddin Biryani",
+      "note": "Spicy mutton biryani served from stalls right outside the dargah, famed for its distinct aroma.",
+      "photo_url": null
+    },
+    {
+      "id": 202,
+      "destination_id": 44,
+      "name": "Nihari",
+      "note": "Slow‑cooked beef stew simmered in earthen pots, popular early mornings near the shrine.",
+      "photo_url": null
+    },
+    {
+      "id": 203,
+      "destination_id": 44,
+      "name": "Haleem",
+      "note": "Thick wheat‑meat porridge sold during Ramadan, celebrated as the ‘Haleem of Nizamuddin’.",
+      "photo_url": null
+    },
+    {
+      "id": 204,
+      "destination_id": 44,
+      "name": "Seekh Kebabs",
+      "note": "Open‑flame tandoor kebabs grilled at roadside stalls around the dargah, known for smoky flavor.",
+      "photo_url": null
+    },
+    {
+      "id": 205,
+      "destination_id": 45,
+      "name": "Momos from Tibetan stalls along the main road",
+      "note": "Steamed/fried Tibetan momos sold by dedicated vendors, a traveler favorite.",
+      "photo_url": null
+    },
+    {
+      "id": 206,
+      "destination_id": 45,
+      "name": "Aloo‑tikki chaat stalls near the railway‑station exit",
+      "note": "Crispy aloo‑tikki served with tangy chutneys right outside the station exit.",
+      "photo_url": null
+    },
+    {
+      "id": 207,
+      "destination_id": 45,
+      "name": "Jalebi Wala (B‑Lane)",
+      "note": "Fresh, hot jalebis made on the spot, a sweet stop on bustling B‑Lane.",
+      "photo_url": null
+    },
+    {
+      "id": 208,
+      "destination_id": 45,
+      "name": "Chole‑bhature breakfast stalls",
+      "note": "Large, fluffy bhature paired with spicy chole, popular early‑morning street breakfast.",
+      "photo_url": null
+    },
+    {
+      "id": 209,
+      "destination_id": 46,
+      "name": "Hot jalebi (main‑lane stall)",
+      "note": "Fresh, piping‑hot jalebis made on‑the‑spot at the main‑lane stall, a Chawri Bazar hallmark.",
+      "photo_url": null
+    },
+    {
+      "id": 210,
+      "destination_id": 46,
+      "name": "Kachori‑sabzi",
+      "note": "Crispy kachoris served with rich sabzi by long‑standing family eateries.",
+      "photo_url": null
+    },
+    {
+      "id": 211,
+      "destination_id": 46,
+      "name": "Papad‑ki‑sabzi",
+      "note": "Traditional papad‑ki‑sabzi, a tangy vegetable dish unique to Chawri’s heritage stalls.",
+      "photo_url": null
+    },
+    {
+      "id": 212,
+      "destination_id": 46,
+      "name": "Laddus & barfis (historic sweet shops)",
+      "note": "Fresh laddus and barfis from century‑old sweet shops lining the market.",
+      "photo_url": null
+    },
+    {
+      "id": 213,
+      "destination_id": 47,
+      "name": "Chattarpur Temple Prasad stalls – Laddus & Pedas",
+      "note": "Prasad stalls sell freshly made laddu and peda as temple offerings.",
+      "photo_url": null
+    },
+    {
+      "id": 214,
+      "destination_id": 47,
+      "name": "Aloo Tikki & Chaat corner near the main gate",
+      "note": "Aloo tikki and assorted chaat served by a kiosk right beside the main entrance.",
+      "photo_url": null
+    },
+    {
+      "id": 215,
+      "destination_id": 47,
+      "name": "Pani Puri/Golgappa stall outside the temple premises",
+      "note": "Crisp golgappas with tangy tamarind water sold from a stall just outside the gates.",
+      "photo_url": null
+    },
+    {
+      "id": 216,
+      "destination_id": 47,
+      "name": "Masala Chai & Pakora kiosk",
+      "note": "Masala chai accompanied by hot onion and paneer pakoras, popular during cooler evenings.",
+      "photo_url": null
+    },
+    {
+      "id": 217,
+      "destination_id": 48,
+      "name": "Prasadam “Krishna Bhog”",
+      "note": "Daily vegetarian thali prepared in temple kitchen, offered to all visitors as sacred prasadam.",
+      "photo_url": null
+    },
+    {
+      "id": 218,
+      "destination_id": 48,
+      "name": "Aloo Paratha with Curd & Pickle",
+      "note": "Hearty stuffed flatbread served each morning, beloved breakfast staple for devotees.",
+      "photo_url": null
+    },
+    {
+      "id": 219,
+      "destination_id": 48,
+      "name": "Chhappan Bhog (12‑Dish Meal)",
+      "note": "Festive twelve‑course meal on special occasions, showcasing diverse vegetarian delicacies.",
+      "photo_url": null
+    },
+    {
+      "id": 220,
+      "destination_id": 48,
+      "name": "Laddu (Kesar, Boondi, Coconut)",
+      "note": "Sweet spherical offerings distributed after prayers, known for rich saffron and coconut flavors.",
+      "photo_url": null
+    },
+    {
+      "id": 221,
+      "destination_id": 49,
+      "name": "Snack stalls near the main entrance (samosas, aloo‑tikki, chaats)",
+      "note": "Offers quick, classic Indian snacks right as visitors enter the zoo.",
+      "photo_url": null
+    },
+    {
+      "id": 222,
+      "destination_id": 49,
+      "name": "Corn on the cob stand near the giraffe enclosure",
+      "note": "Spiced grilled corn served with butter, a favorite bite while watching giraffes.",
+      "photo_url": null
+    },
+    {
+      "id": 223,
+      "destination_id": 49,
+      "name": "Fruit‑juice bar at the central plaza",
+      "note": "Fresh seasonal juices and coconut water, refreshing amid zoo’s hot days.",
+      "photo_url": null
+    },
+    {
+      "id": 224,
+      "destination_id": 49,
+      "name": "Ice‑cream kiosk near the Kids Zone",
+      "note": "Soft‑serve vanilla and fruit flavours, popular with families after playtime.",
+      "photo_url": null
+    },
+    {
+      "id": 225,
+      "destination_id": 50,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Serve crisp aloo‑tikki, papri, and bhalla‑puri, perfect for quick park snacks.",
+      "photo_url": null
+    },
+    {
+      "id": 226,
+      "destination_id": 50,
+      "name": "Samosa & pakora vendors on weekend mornings",
+      "note": "Offer hot potato samosas and onion pakoras for early‑day visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 227,
+      "destination_id": 50,
+      "name": "Fruit‑juice & nimbu‑pani stands",
+      "note": "Fresh orange, mango juices and salted lime water keep walkers hydrated.",
+      "photo_url": null
+    },
+    {
+      "id": 228,
+      "destination_id": 50,
+      "name": "Ice‑cream/kulfi vans",
+      "note": "Mobile carts provide kulfi and soft‑serve, a cool treat after walks.",
+      "photo_url": null
+    },
+    {
+      "id": 229,
+      "destination_id": 51,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Crisp papdi‑chaat and aloo‑tikki chaat served by vendors at the park’s north gate.",
+      "photo_url": null
+    },
+    {
+      "id": 230,
+      "destination_id": 51,
+      "name": "Pani Puri kiosks on weekends",
+      "note": "Crisp gol‑gappas sold by temporary stalls near the south side each Saturday.",
+      "photo_url": null
+    },
+    {
+      "id": 231,
+      "destination_id": 51,
+      "name": "Fresh fruit juice stalls near the main gate",
+      "note": "Mosambi and sugarcane juices from a small cart beside the entryway.",
+      "photo_url": null
+    },
+    {
+      "id": 232,
+      "destination_id": 51,
+      "name": "Ice‑cream/kulfi carts in summer",
+      "note": "Hand‑crafted kulfi and ice‑cream served from a mobile cart during hot months.",
+      "photo_url": null
+    },
+    {
+      "id": 233,
+      "destination_id": 52,
+      "name": "Kathi Rolls (spicy chicken & paneer) from Food Street stalls",
+      "note": "Crispy rolls packed with flavorful fillings, a signature snack on Rajouri Garden’s food lane.",
+      "photo_url": null
+    },
+    {
+      "id": 234,
+      "destination_id": 52,
+      "name": "Assorted Chaat from the Chaat Corner near the main entrance",
+      "note": "Tangy, sweet, and spicy street‑chaat mix that draws crowds daily.",
+      "photo_url": null
+    },
+    {
+      "id": 235,
+      "destination_id": 52,
+      "name": "Steamed & fried Momos from dedicated Momos carts",
+      "note": "Soft dumplings served with fiery red‑chili sauce, a popular winter treat.",
+      "photo_url": null
+    },
+    {
+      "id": 236,
+      "destination_id": 52,
+      "name": "Ice‑cream and Falooda stalls on Food Street",
+      "note": "Cold desserts like falooda and homemade ice‑cream, perfect after spicy bites.",
+      "photo_url": null
+    },
+    {
+      "id": 237,
+      "destination_id": 53,
+      "name": "Chaat stalls near the main entrance",
+      "note": "Crispy, tangy chaat served by kiosks right at the venue’s front gate, a visitor staple.",
+      "photo_url": null
+    },
+    {
+      "id": 238,
+      "destination_id": 53,
+      "name": "Kathi Roll kiosks in the exhibition food court",
+      "note": "Spicy chicken and paneer rolls prepared on‑site, popular for quick meals between pavilion tours.",
+      "photo_url": null
+    },
+    {
+      "id": 239,
+      "destination_id": 53,
+      "name": "Chole Bhature stalls inside the permanent food court",
+      "note": "Fluffy bhature with rich chole, a hearty north‑Indian breakfast favorite for fair‑goers.",
+      "photo_url": null
+    },
+    {
+      "id": 240,
+      "destination_id": 53,
+      "name": "Kulfi‑wala carts at the main gate",
+      "note": "Traditional mango and pistachio kulfi sold from carts, offering cool relief during Delhi’s heat.",
+      "photo_url": null
+    }
+  ],
+  "famousActivities": [
+    {
+      "id": 1,
+      "destination_id": 1,
+      "name": "Heritage walk through narrow lanes",
+      "note": "Guided stroll reveals centuries‑old havelis, bustling bazaars, and Mughal architectural details.",
+      "photo_url": null
+    },
+    {
+      "id": 2,
+      "destination_id": 1,
+      "name": "Visit Jama Masjid",
+      "note": "Explore one of India’s largest mosques, its massive prayer hall and historic market surroundings.",
+      "photo_url": null
+    },
+    {
+      "id": 3,
+      "destination_id": 1,
+      "name": "Explore Khari Baoli",
+      "note": "Asia’s largest spice market immerses visitors in fragrant aisles of herbs, chilies, and dried fruits.",
+      "photo_url": null
+    },
+    {
+      "id": 4,
+      "destination_id": 1,
+      "name": "Stop at Gurdwara Sis Ganj Sahib",
+      "note": "Visit the historic Sikh shrine, admire its golden dome and share the community langar.",
+      "photo_url": null
+    },
+    {
+      "id": 17,
+      "destination_id": 5,
+      "name": "Walking the concentric circular layout",
+      "note": "Stroll among white colonnades, the central park, and the iconic clock‑tower defining CP’s unique geometry.",
+      "photo_url": null
+    },
+    {
+      "id": 18,
+      "destination_id": 5,
+      "name": "Palika Bazaar",
+      "note": "Underground mall beneath CP’s inner circle, famed for bargain electronics, accessories, and bustling late‑night crowds.",
+      "photo_url": null
+    },
+    {
+      "id": 19,
+      "destination_id": 5,
+      "name": "Connaught Place heritage walk",
+      "note": "Guided tours highlight British‑era architecture, the origin of the name, and the area’s evolution over a mile.",
+      "photo_url": null
+    },
+    {
+      "id": 20,
+      "destination_id": 5,
+      "name": "Night‑time food‑street experience",
+      "note": "Outer circle transforms after dark with stalls serving kulfi, chaat, kebabs, creating a lively nocturnal market.",
+      "photo_url": null
+    },
+    {
+      "id": 37,
+      "destination_id": 10,
+      "name": "Book‑shopping at Oxford & Crossword",
+      "note": "Flagship stores host extensive collections and author events, a reader’s haven in the market.",
+      "photo_url": null
+    },
+    {
+      "id": 38,
+      "destination_id": 10,
+      "name": "Weekend Farmers’ Market",
+      "note": "Saturday pop‑up sells organic produce, artisanal foods, and handmade crafts directly from local vendors.",
+      "photo_url": null
+    },
+    {
+      "id": 39,
+      "destination_id": 10,
+      "name": "Piano Man Jazz Club",
+      "note": "Intimate live‑music venue offering dinner and jazz performances a short walk from the market.",
+      "photo_url": null
+    },
+    {
+      "id": 40,
+      "destination_id": 10,
+      "name": "Khan Market Heritage Walk",
+      "note": "Guided stroll highlighting the market’s 1950s origins, colonial architecture, and evolution.",
+      "photo_url": null
+    },
+    {
+      "id": 41,
+      "destination_id": 2,
+      "name": "Hauz Khas Complex",
+      "note": "Medieval reservoir, tombs and madrasa showcasing 13th‑century architecture within a leafy urban park.",
+      "photo_url": null
+    },
+    {
+      "id": 42,
+      "destination_id": 2,
+      "name": "Deer Park",
+      "note": "Sprawling green park with walking trails, a lake and a small herd of spotted deer.",
+      "photo_url": null
+    },
+    {
+      "id": 43,
+      "destination_id": 2,
+      "name": "Hauz Khas Lake & promenade",
+      "note": "Serene lake encircling the reservoir, popular for evening strolls and photography.",
+      "photo_url": null
+    },
+    {
+      "id": 44,
+      "destination_id": 2,
+      "name": "Nightlife & micro‑brewery scene",
+      "note": "Pubs like The Beer Café, PCO and Summer House host live music, DJ nights and craft drinks.",
+      "photo_url": null
+    },
+    {
+      "id": 45,
+      "destination_id": 3,
+      "name": "Exploring the Lodhi tombs",
+      "note": "Visit the 15th‑century tombs of Sikandar Lodi, Muhammad Shah, and Ibrahim Lodi.",
+      "photo_url": null
+    },
+    {
+      "id": 46,
+      "destination_id": 3,
+      "name": "2 km jogging/run loop",
+      "note": "Paved circuit circling the garden, popular with locals for morning runs.",
+      "photo_url": null
+    },
+    {
+      "id": 47,
+      "destination_id": 3,
+      "name": "Guided heritage walks",
+      "note": "AS​I‑run tours explain the garden’s history and architectural details.",
+      "photo_url": null
+    },
+    {
+      "id": 48,
+      "destination_id": 3,
+      "name": "Open‑air cultural events",
+      "note": "Seasonal concerts, poetry recitals, and art shows on the garden’s central stage.",
+      "photo_url": null
+    },
+    {
+      "id": 49,
+      "destination_id": 4,
+      "name": "Live folk-dance and music performances",
+      "note": "Daily stage shows featuring Bhangra, Garba, tribal dances, and regional folk music.",
+      "photo_url": null
+    },
+    {
+      "id": 50,
+      "destination_id": 4,
+      "name": "Craft workshops & demonstrations",
+      "note": "Hands‑on sessions on block‑printing, pottery, bamboo crafts, and other traditional arts.",
+      "photo_url": null
+    },
+    {
+      "id": 51,
+      "destination_id": 4,
+      "name": "Live cooking shows",
+      "note": "Chefs prepare regional specialties like Andhra biryani or Goan fish curry in front of visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 52,
+      "destination_id": 4,
+      "name": "Seasonal cultural festivals",
+      "note": "Special themed bazaars for Diwali, Navratri, Christmas, and the winter carnival with décor.",
+      "photo_url": null
+    },
+    {
+      "id": 53,
+      "destination_id": 6,
+      "name": "Main Tomb of Humayun",
+      "note": "Visit the iconic double‑dome marble tomb at the heart of the complex.",
+      "photo_url": null
+    },
+    {
+      "id": 54,
+      "destination_id": 6,
+      "name": "Char‑Bagh Mughal garden",
+      "note": "Stroll through the four‑part Persian garden with symmetrical waterways and terraces.",
+      "photo_url": null
+    },
+    {
+      "id": 55,
+      "destination_id": 6,
+      "name": "Sunrise view from South‑West gate",
+      "note": "Capture the tomb’s façade bathed in early‑morning light, a photographer’s favorite.",
+      "photo_url": null
+    },
+    {
+      "id": 56,
+      "destination_id": 6,
+      "name": "Audio‑guide rental",
+      "note": "Borrow multilingual audio guides at ticket counters for self‑guided commentary.",
+      "photo_url": null
+    },
+    {
+      "id": 57,
+      "destination_id": 7,
+      "name": "Bargain hunting for cheap fashion",
+      "note": "Hours spent negotiating export‑surplus garments, denim and accessories at low prices.",
+      "photo_url": null
+    },
+    {
+      "id": 58,
+      "destination_id": 7,
+      "name": "Exploring the Export‑surplus sections",
+      "note": "Designated lanes labeled ‘Export‑Surplus Clothing’ offer bulk‑priced trends unavailable elsewhere.",
+      "photo_url": null
+    },
+    {
+      "id": 59,
+      "destination_id": 7,
+      "name": "Visiting the Sarojini Nagar Metro Station (Pink Line)",
+      "note": "Convenient pink‑line stop serves as the primary gateway for shoppers entering the market.",
+      "photo_url": null
+    },
+    {
+      "id": 60,
+      "destination_id": 7,
+      "name": "Weekend night‑market vibe on Saturday evenings",
+      "note": "Extended stall hours, music and larger crowds create a lively Saturday night shopping atmosphere.",
+      "photo_url": null
+    },
+    {
+      "id": 61,
+      "destination_id": 8,
+      "name": "College‑student hang‑out",
+      "note": "Groups gather at tea stalls and benches after classes for chats and snacks.",
+      "photo_url": null
+    },
+    {
+      "id": 62,
+      "destination_id": 8,
+      "name": "Street‑fashion shopping",
+      "note": "Affordable tees, jeans, and accessories sold by dozens of tiny boutiques.",
+      "photo_url": null
+    },
+    {
+      "id": 63,
+      "destination_id": 8,
+      "name": "Book & stationery stalls",
+      "note": "Shops offering notebooks, pens, and exam prep material for university students.",
+      "photo_url": null
+    },
+    {
+      "id": 64,
+      "destination_id": 8,
+      "name": "Live music & street performances",
+      "note": "Acoustic gigs and buskers entertain shoppers, especially on weekends.",
+      "photo_url": null
+    },
+    {
+      "id": 65,
+      "destination_id": 9,
+      "name": "Five Senses Trails",
+      "note": "Themed pathways engaging touch, smell, sight, sound, taste with interactive installations.",
+      "photo_url": null
+    },
+    {
+      "id": 66,
+      "destination_id": 9,
+      "name": "Scent Garden",
+      "note": "Fragrant roses, jasmine, marigold, lemongrass designed for olfactory experience.",
+      "photo_url": null
+    },
+    {
+      "id": 67,
+      "destination_id": 9,
+      "name": "Sound Garden / Musical Fountain",
+      "note": "Water features synchronized with ambient music, host for live performances.",
+      "photo_url": null
+    },
+    {
+      "id": 68,
+      "destination_id": 9,
+      "name": "Mushroom & Fern Walk",
+      "note": "Shaded lane showcasing exotic ferns and a small mushroom exhibit.",
+      "photo_url": null
+    },
+    {
+      "id": 69,
+      "destination_id": 11,
+      "name": "Evening Light‑and‑Sound Show on the arch",
+      "note": "Audio‑visual projection narrates the memorial’s history after sunset each evening.",
+      "photo_url": null
+    },
+    {
+      "id": 70,
+      "destination_id": 11,
+      "name": "Republic Day Flag‑hoisting and Parade viewing",
+      "note": "Official flag‑raising ceremony and prime viewpoint for the national parade on 26 January.",
+      "photo_url": null
+    },
+    {
+      "id": 71,
+      "destination_id": 11,
+      "name": "Viewing the National War Memorial adjacent to India Gate",
+      "note": "Modern memorial honoring soldiers of all wars, often explored together with India Gate.",
+      "photo_url": null
+    },
+    {
+      "id": 72,
+      "destination_id": 11,
+      "name": "Cultural performances on the lawns during festivals",
+      "note": "Scheduled music, dance and choral shows on Independence Day, Diwali and other celebrations.",
+      "photo_url": null
+    },
+    {
+      "id": 73,
+      "destination_id": 12,
+      "name": "Light‑and‑Sound Show",
+      "note": "Evening multimedia show projecting Red Fort’s history onto its walls.",
+      "photo_url": null
+    },
+    {
+      "id": 74,
+      "destination_id": 12,
+      "name": "Diwan‑i‑Aam (Hall of Public Audiences)",
+      "note": "Grand marble hall where Mughal emperors addressed citizens and held public audiences.",
+      "photo_url": null
+    },
+    {
+      "id": 75,
+      "destination_id": 12,
+      "name": "Diwan‑i‑Khas (Hall of Private Audiences)",
+      "note": "Ornate chamber for confidential meetings between the emperor and courtiers.",
+      "photo_url": null
+    },
+    {
+      "id": 76,
+      "destination_id": 12,
+      "name": "Independence Day Flag‑hoisting ceremony",
+      "note": "Prime Minister raises the national flag on the ramparts each 15 August, drawing huge crowds.",
+      "photo_url": null
+    },
+    {
+      "id": 77,
+      "destination_id": 13,
+      "name": "Climbing the Qutub Minar (up to the 5th storey)",
+      "note": "Offers panoramic views of the surrounding ruins and Delhi skyline.",
+      "photo_url": null
+    },
+    {
+      "id": 78,
+      "destination_id": 13,
+      "name": "Visiting the Iron Pillar",
+      "note": "Ancient rust‑proof iron column showcasing historic metallurgical skill.",
+      "photo_url": null
+    },
+    {
+      "id": 79,
+      "destination_id": 13,
+      "name": "Alai Darwaza (Gate of Excellence)",
+      "note": "Grand 13‑arched gateway famed for intricate lattice and red‑sandstone arches.",
+      "photo_url": null
+    },
+    {
+      "id": 80,
+      "destination_id": 13,
+      "name": "Quwwat-ul-Islam Mosque",
+      "note": "First Delhi mosque built with reused temple pillars, notable sloping arches.",
+      "photo_url": null
+    },
+    {
+      "id": 81,
+      "destination_id": 14,
+      "name": "Silent meditation in the central prayer hall",
+      "note": "Open to all, the hall invites quiet contemplation amidst the lotus‑shaped space.",
+      "photo_url": null
+    },
+    {
+      "id": 82,
+      "destination_id": 14,
+      "name": "Guided architectural tours",
+      "note": "Explain the nine‑petal design, Baháʼí symbolism, and engineering of the concrete‑covered steel structure.",
+      "photo_url": null
+    },
+    {
+      "id": 83,
+      "destination_id": 14,
+      "name": "Evening illumination light show",
+      "note": "The temple glows with coordinated lighting after sunset, creating a photogenic landmark.",
+      "photo_url": null
+    },
+    {
+      "id": 84,
+      "destination_id": 14,
+      "name": "Garden walks and photography in the surrounding landscaped grounds",
+      "note": "Visitors capture reflections in the pool and the ornamental flower beds.",
+      "photo_url": null
+    },
+    {
+      "id": 85,
+      "destination_id": 15,
+      "name": "Yagnapurush Kund",
+      "note": "Massive intricately carved step‑well at the complex’s center, a favorite photography spot.",
+      "photo_url": null
+    },
+    {
+      "id": 86,
+      "destination_id": 15,
+      "name": "Sahaj Anand Water Show",
+      "note": "Narrated boat ride ending in a spectacular light‑and‑sound performance depicting Indian history.",
+      "photo_url": null
+    },
+    {
+      "id": 87,
+      "destination_id": 15,
+      "name": "Ramayana Gallery",
+      "note": "Audio‑visual exhibit using animatronics and dioramas to retell Lord Rama’s story.",
+      "photo_url": null
+    },
+    {
+      "id": 88,
+      "destination_id": 15,
+      "name": "Light‑and‑Sound Show (Evening)",
+      "note": "Nightly laser projection on the temple façade illustrating Indian heritage and values.",
+      "photo_url": null
+    },
+    {
+      "id": 89,
+      "destination_id": 16,
+      "name": "Touring the mosque interior",
+      "note": "Explore marble prayer hall, towering arches, and the ornate minbar inside the mosque.",
+      "photo_url": null
+    },
+    {
+      "id": 90,
+      "destination_id": 16,
+      "name": "Climbing the minaret balcony",
+      "note": "Ascend the minaret balcony for sweeping views of Old Delhi’s rooftops and Red Fort.",
+      "photo_url": null
+    },
+    {
+      "id": 91,
+      "destination_id": 16,
+      "name": "Listening to the Azaan",
+      "note": "Hear the resonant Azaan echo from the minarets at dawn and sunset.",
+      "photo_url": null
+    },
+    {
+      "id": 92,
+      "destination_id": 16,
+      "name": "Guided heritage walk",
+      "note": "Join a specialist tour detailing Mughal architecture and the mosque’s 17th‑century history.",
+      "photo_url": null
+    },
+    {
+      "id": 93,
+      "destination_id": 17,
+      "name": "Exploring the Qila’s main structures",
+      "note": "Explore massive sandstone walls, Sheesh Mahal and western gateway – iconic Mughal architecture.",
+      "photo_url": null
+    },
+    {
+      "id": 94,
+      "destination_id": 17,
+      "name": "Purana Qila Archaeological Museum",
+      "note": "Visit museum inside the fort displaying artifacts from Mauryan, Gupta, and Mughal eras.",
+      "photo_url": null
+    },
+    {
+      "id": 95,
+      "destination_id": 17,
+      "name": "Walking the historic moat and ramparts",
+      "note": "Traverse the fort’s original defensive ditch and ramparts, a rare historic experience.",
+      "photo_url": null
+    },
+    {
+      "id": 96,
+      "destination_id": 17,
+      "name": "Evening Sound‑and‑Light Show (seasonal)",
+      "note": "Narrated history projected onto walls with music and lights on selected evenings.",
+      "photo_url": null
+    },
+    {
+      "id": 97,
+      "destination_id": 18,
+      "name": "Exploring the step‑well architecture",
+      "note": "Descend 108 steps, admire vaulted arches and ancient stonework unique to this heritage site.",
+      "photo_url": null
+    },
+    {
+      "id": 98,
+      "destination_id": 18,
+      "name": "Heritage‑photography (sunrise/sunset)",
+      "note": "Capture sunrise or sunset light‑and‑shadow effects inside the Baoli, a photographer’s favorite.",
+      "photo_url": null
+    },
+    {
+      "id": 99,
+      "destination_id": 18,
+      "name": "Guided historical tours",
+      "note": "Local guides offer narrated visits covering Mughal origins and King Agrasen legends.",
+      "photo_url": null
+    },
+    {
+      "id": 100,
+      "destination_id": 18,
+      "name": "Yoga / meditation sessions",
+      "note": "Early‑morning yoga groups use the quiet Baoli space for tranquil practice.",
+      "photo_url": null
+    },
+    {
+      "id": 101,
+      "destination_id": 19,
+      "name": "Evening cultural performances",
+      "note": "Evening open‑air concerts featuring classical music, ghazals, folk dances, and occasional rock bands.",
+      "photo_url": null
+    },
+    {
+      "id": 102,
+      "destination_id": 19,
+      "name": "Morning yoga and meditation sessions",
+      "note": "Morning yoga sessions organized by local groups and Delhi government on the central lawn.",
+      "photo_url": null
+    },
+    {
+      "id": 103,
+      "destination_id": 19,
+      "name": "Open‑air poetry recitals (Mushaira)",
+      "note": "Weekly Mushaira gatherings where poets recite Hindi‑Urdu verses under the park’s trees.",
+      "photo_url": null
+    },
+    {
+      "id": 104,
+      "destination_id": 19,
+      "name": "Musical fountain",
+      "note": "Musical fountain operates in evenings, illuminated shows attracting families and couples.",
+      "photo_url": null
+    },
+    {
+      "id": 105,
+      "destination_id": 20,
+      "name": "Deer spotting in the enclosure",
+      "note": "Visitors can watch semi‑captive spotted deer up close.",
+      "photo_url": null
+    },
+    {
+      "id": 106,
+      "destination_id": 20,
+      "name": "Open‑air amphitheatre performances",
+      "note": "Hosts cultural shows, music evenings and community events.",
+      "photo_url": null
+    },
+    {
+      "id": 107,
+      "destination_id": 20,
+      "name": "Rose and flower gardens",
+      "note": "Vibrant blooms especially in spring, popular for photographs.",
+      "photo_url": null
+    },
+    {
+      "id": 108,
+      "destination_id": 20,
+      "name": "Kids’ play area",
+      "note": "Swings, slides and sandbox provide a dedicated space for children.",
+      "photo_url": null
+    },
+    {
+      "id": 109,
+      "destination_id": 21,
+      "name": "PVR Cinemas multiplex",
+      "note": "12‑screen multiplex with IMAX, hosting latest Bollywood and Hollywood releases.",
+      "photo_url": null
+    },
+    {
+      "id": 110,
+      "destination_id": 21,
+      "name": "Smaaash / VR Zone",
+      "note": "Indoor gaming arena featuring VR experiences, bowling, and arcade games for groups.",
+      "photo_url": null
+    },
+    {
+      "id": 111,
+      "destination_id": 21,
+      "name": "The Atrium/Grand Central Hall",
+      "note": "Spacious open‑area used for seasonal exhibitions, fashion shows and pop‑up art installations.",
+      "photo_url": null
+    },
+    {
+      "id": 112,
+      "destination_id": 21,
+      "name": "Rooftop Open‑Air Dining & Lounge",
+      "note": "Rooftop lounge offers al fresco dining, live music and DJ nights with city views.",
+      "photo_url": null
+    },
+    {
+      "id": 113,
+      "destination_id": 22,
+      "name": "PVR Cinemas Multiplex",
+      "note": "Five‑screen multiplex showing latest Bollywood and Hollywood releases with premium seating.",
+      "photo_url": null
+    },
+    {
+      "id": 114,
+      "destination_id": 22,
+      "name": "Live Music & Performance Stage",
+      "note": "Daily acoustic sets and weekend band performances in the central atrium.",
+      "photo_url": null
+    },
+    {
+      "id": 115,
+      "destination_id": 22,
+      "name": "Seasonal Décor & Festivals",
+      "note": "Elaborate themed installations for Diwali, Christmas and New Year attract crowds.",
+      "photo_url": null
+    },
+    {
+      "id": 116,
+      "destination_id": 22,
+      "name": "Food Street (Promenade‑style food court)",
+      "note": "Open‑air promenade‑style food court featuring diverse stalls and pop‑up culinary events.",
+      "photo_url": null
+    },
+    {
+      "id": 117,
+      "destination_id": 23,
+      "name": "Buddhist Stupa & Gompa (Majnu‑ka‑Tilla monastery)",
+      "note": "Small monastery with chanting monks and prayer wheels, central cultural landmark.",
+      "photo_url": null
+    },
+    {
+      "id": 118,
+      "destination_id": 23,
+      "name": "Tibetan Handicraft Market",
+      "note": "Rows of stalls selling thangkas, prayer flags, jewelry, and traditional clothing.",
+      "photo_url": null
+    },
+    {
+      "id": 119,
+      "destination_id": 23,
+      "name": "Losar (Tibetan New Year) celebrations",
+      "note": "Annual festival with mask dances, music, and communal feasts in February/March.",
+      "photo_url": null
+    },
+    {
+      "id": 120,
+      "destination_id": 23,
+      "name": "Tibetan cooking workshops",
+      "note": "Hands‑on classes at local cafés teaching momos and thukpa preparation.",
+      "photo_url": null
+    },
+    {
+      "id": 121,
+      "destination_id": 24,
+      "name": "Heritage Walk of Shahpur Jat Village",
+      "note": "Guided tours reveal 800‑year‑old havelis, narrow lanes and the central community pond.",
+      "photo_url": null
+    },
+    {
+      "id": 122,
+      "destination_id": 24,
+      "name": "Shri Vinayak (Ganesh) Temple",
+      "note": "Centuries‑old village temple, focal point for festivals and daily worship.",
+      "photo_url": null
+    },
+    {
+      "id": 123,
+      "destination_id": 24,
+      "name": "Graffiti & Street‑Art Trail",
+      "note": "Colorful murals line market walls, popular for Instagram photo‑ops.",
+      "photo_url": null
+    },
+    {
+      "id": 124,
+      "destination_id": 24,
+      "name": "Boutique & Designer Shopping",
+      "note": "Indie fashion boutiques showcase contemporary Indian designers and up‑cycled clothing.",
+      "photo_url": null
+    },
+    {
+      "id": 125,
+      "destination_id": 25,
+      "name": "Gandhi Smriti museum (former Birla House)",
+      "note": "Exhibits Gandhi's life, original charkha, and historic photographs.",
+      "photo_url": null
+    },
+    {
+      "id": 126,
+      "destination_id": 25,
+      "name": "Eternal Flame (Akhand Jyoti) at the memorial platform",
+      "note": "Continuously burning flame symbolising Gandhi's ideals, visible at the central platform.",
+      "photo_url": null
+    },
+    {
+      "id": 127,
+      "destination_id": 25,
+      "name": "Audio‑visual ‘Gandhi Life’ show in the museum auditorium",
+      "note": "Short documentary screened daily, highlighting key moments of Gandhi's journey.",
+      "photo_url": null
+    },
+    {
+      "id": 128,
+      "destination_id": 25,
+      "name": "Guided heritage walks organized at Rajghat",
+      "note": "Scheduled tours explaining Gandhi's final days, architecture, and riverfront significance.",
+      "photo_url": null
+    },
+    {
+      "id": 129,
+      "destination_id": 26,
+      "name": "Participating in Langar",
+      "note": "Sit on the floor, share the communal vegetarian meal, experiencing Sikh hospitality.",
+      "photo_url": null
+    },
+    {
+      "id": 130,
+      "destination_id": 26,
+      "name": "Listening to Kirtan",
+      "note": "Live devotional hymns performed in the main prayer hall, creating a spiritual ambience.",
+      "photo_url": null
+    },
+    {
+      "id": 131,
+      "destination_id": 26,
+      "name": "Viewing the Golden Dome",
+      "note": "Iconic gold‑plated dome crowning the sanctum, a hallmark of Bangla Sahib.",
+      "photo_url": null
+    },
+    {
+      "id": 132,
+      "destination_id": 26,
+      "name": "Walking around the Sarovar",
+      "note": "Circumambulate the holy water tank, a ritual for purification and reflection.",
+      "photo_url": null
+    },
+    {
+      "id": 133,
+      "destination_id": 27,
+      "name": "Morning & Evening Aarti",
+      "note": "Daily devotional singing and lamp lighting, drawing large crowds at sunrise and sunset.",
+      "photo_url": null
+    },
+    {
+      "id": 134,
+      "destination_id": 27,
+      "name": "Hanuman Jayanti celebrations",
+      "note": "Special bhajans, processions, and extra prasad on Lord Hanuman’s birth anniversary.",
+      "photo_url": null
+    },
+    {
+      "id": 135,
+      "destination_id": 27,
+      "name": "Tuesday & Saturday Prasad distribution",
+      "note": "Free laddus offered to every devotee during the temple’s bi‑weekly prasad ceremony.",
+      "photo_url": null
+    },
+    {
+      "id": 136,
+      "destination_id": 27,
+      "name": "Bhajans/Kirtan sessions",
+      "note": "Communal devotional songs performed every Saturday and Tuesday, encouraging participation.",
+      "photo_url": null
+    },
+    {
+      "id": 137,
+      "destination_id": 28,
+      "name": "Samrat Yantra (Supreme Instrument)",
+      "note": "World’s largest stone sundial; stand at its center to watch the moving shadow.",
+      "photo_url": null
+    },
+    {
+      "id": 138,
+      "destination_id": 28,
+      "name": "Jai Prakash Yantra (Sun‑Disc)",
+      "note": "Hemispherical bowl creates a moving light spot, demonstrating solar time.",
+      "photo_url": null
+    },
+    {
+      "id": 139,
+      "destination_id": 28,
+      "name": "Ram Yantra (Circular Observatory)",
+      "note": "Concentric stone circles used to measure celestial altitudes.",
+      "photo_url": null
+    },
+    {
+      "id": 140,
+      "destination_id": 28,
+      "name": "Guided heritage tours",
+      "note": "Audio or in‑person tours explain the history and purpose of each instrument.",
+      "photo_url": null
+    },
+    {
+      "id": 141,
+      "destination_id": 29,
+      "name": "Guided heritage walk of the tomb and garden",
+      "note": "Official tours explain Mughal architecture and garden layout.",
+      "photo_url": null
+    },
+    {
+      "id": 142,
+      "destination_id": 29,
+      "name": "Evening illumination view of the marble dome",
+      "note": "Tomb lit up after sunset on selected evenings, attracting photographers.",
+      "photo_url": null
+    },
+    {
+      "id": 143,
+      "destination_id": 29,
+      "name": "Bird‑watching in the surrounding gardens",
+      "note": "Seasonal migratory birds frequent the green lawns, delighting nature lovers.",
+      "photo_url": null
+    },
+    {
+      "id": 144,
+      "destination_id": 29,
+      "name": "Early‑morning yoga sessions on the lawns",
+      "note": "Open‑air yoga classes held for visitors and locals at sunrise.",
+      "photo_url": null
+    },
+    {
+      "id": 145,
+      "destination_id": 30,
+      "name": "Exploring the massive outer walls and Badi Darwaza",
+      "note": "Walk along 6‑meter‑high stone ramparts and the grand Badi Darwaza gate for historic views.",
+      "photo_url": null
+    },
+    {
+      "id": 146,
+      "destination_id": 30,
+      "name": "Visiting underground chambers and Hauz‑e‑Tughlaq water tank ruins",
+      "note": "Descend into hidden chambers and see the ruins of the original Tughlaq-era water reservoir.",
+      "photo_url": null
+    },
+    {
+      "id": 147,
+      "destination_id": 30,
+      "name": "Trek/rock‑climbing on surrounding hills",
+      "note": "Short treks and amateur rock‑climbing on low hillocks surrounding the fort offer adventurous views.",
+      "photo_url": null
+    },
+    {
+      "id": 148,
+      "destination_id": 30,
+      "name": "Cultural events / heritage festivals at the fort",
+      "note": "Delhi Heritage Festival stages folk dance and music performances in the fort’s open courtyard.",
+      "photo_url": null
+    },
+    {
+      "id": 149,
+      "destination_id": 31,
+      "name": "Exploring the historic Feroz Shah Kotla Fort",
+      "note": "Ruins of a 14th‑century Sultanate palace with massive walls and arches.",
+      "photo_url": null
+    },
+    {
+      "id": 150,
+      "destination_id": 31,
+      "name": "Visiting the Ashokan Pillar within the fort complex",
+      "note": "Ancient stone pillar, one of the few Ashokan monuments in Delhi.",
+      "photo_url": null
+    },
+    {
+      "id": 151,
+      "destination_id": 31,
+      "name": "Attending a cricket match at Arun Jaitley Stadium",
+      "note": "International and IPL games in the iconic ground built around the fort.",
+      "photo_url": null
+    },
+    {
+      "id": 152,
+      "destination_id": 31,
+      "name": "Light‑and‑sound show dramatizing the fort’s history",
+      "note": "Evening multimedia show illuminating the fort’s past for visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 153,
+      "destination_id": 32,
+      "name": "Bird‑watching at the lake",
+      "note": "Migratory birds gather here each winter, drawing avid bird‑watchers.",
+      "photo_url": null
+    },
+    {
+      "id": 154,
+      "destination_id": 32,
+      "name": "Boating (row‑boat / paddle‑boat rentals)",
+      "note": "Seasonal paddle‑boat rides let visitors glide across the calm lake.",
+      "photo_url": null
+    },
+    {
+      "id": 155,
+      "destination_id": 32,
+      "name": "Nature‑photography spots (viewing decks, bird‑watching towers)",
+      "note": "Designated decks provide ideal angles for wildlife and landscape photography.",
+      "photo_url": null
+    },
+    {
+      "id": 156,
+      "destination_id": 32,
+      "name": "Weekend flea‑market / craft bazaar",
+      "note": "Pop‑up stalls showcase handmade crafts, plants, and local art each weekend.",
+      "photo_url": null
+    },
+    {
+      "id": 157,
+      "destination_id": 33,
+      "name": "Water‑sports complex (jet‑ski, speed‑boat, kayaking)",
+      "note": "Licensed operators provide thrill rides on the lake for all skill levels.",
+      "photo_url": null
+    },
+    {
+      "id": 158,
+      "destination_id": 33,
+      "name": "Adventure park rides (zip‑line, rope‑course)",
+      "note": "Near the entrance, a small adventure zone offers zip‑lining and rope challenges.",
+      "photo_url": null
+    },
+    {
+      "id": 159,
+      "destination_id": 33,
+      "name": "Evening light‑and‑sound shows",
+      "note": "Occasional DDA‑organized displays illuminate the lake during festivals and special nights.",
+      "photo_url": null
+    },
+    {
+      "id": 160,
+      "destination_id": 33,
+      "name": "Open‑air yoga and meditation sessions",
+      "note": "Morning groups gather on the lawns for guided yoga beside the water.",
+      "photo_url": null
+    },
+    {
+      "id": 161,
+      "destination_id": 34,
+      "name": "Central Buddha statue and meditation garden",
+      "note": "Large seated Buddha surrounded by a quiet garden for reflection and meditation.",
+      "photo_url": null
+    },
+    {
+      "id": 162,
+      "destination_id": 34,
+      "name": "Annual Buddha Jayanti celebration",
+      "note": "Full‑day cultural program each May with chants, discourses, performances, and a small fair.",
+      "photo_url": null
+    },
+    {
+      "id": 163,
+      "destination_id": 34,
+      "name": "Lotus pond",
+      "note": "Small water body filled with blooming lotus flowers, popular with photographers and birdwatchers.",
+      "photo_url": null
+    },
+    {
+      "id": 164,
+      "destination_id": 34,
+      "name": "Buddhist motif sculptures along pathways",
+      "note": "Stone and metal dharmachakra and bodhi‑tree figures line the walking routes.",
+      "photo_url": null
+    },
+    {
+      "id": 165,
+      "destination_id": 35,
+      "name": "Nature walking / forest trail trekking",
+      "note": "Marked paths weave through teak and peepal groves, offering serene forest immersion.",
+      "photo_url": null
+    },
+    {
+      "id": 166,
+      "destination_id": 35,
+      "name": "Bird‑watching",
+      "note": "Spot Indian Robin, Green Bee-eater and occasional migrants among dense foliage.",
+      "photo_url": null
+    },
+    {
+      "id": 167,
+      "destination_id": 35,
+      "name": "Guided heritage walks linking Sanjay Van and Qutub Minar",
+      "note": "Tours combine forest trails with nearby historic Qutub Minar ruins.",
+      "photo_url": null
+    },
+    {
+      "id": 168,
+      "destination_id": 35,
+      "name": "Forest‑conservation volunteer activities",
+      "note": "NGOs organize clean-ups, tree-planting and awareness camps within the reserve.",
+      "photo_url": null
+    },
+    {
+      "id": 169,
+      "destination_id": 37,
+      "name": "Bridal‑wear and wedding outfit shopping",
+      "note": "Extensive selection of lehengas, sarees, and accessories at negotiable prices.",
+      "photo_url": null
+    },
+    {
+      "id": 170,
+      "destination_id": 37,
+      "name": "Fabric and textile bazaar",
+      "note": "Rows of shops selling cotton, silk, chiffon, and designer fabrics for tailors.",
+      "photo_url": null
+    },
+    {
+      "id": 171,
+      "destination_id": 37,
+      "name": "Shri Gauri Shankar Temple visit",
+      "note": "Small Hindu temple frequented by shoppers for a quick prayer.",
+      "photo_url": null
+    },
+    {
+      "id": 172,
+      "destination_id": 37,
+      "name": "Late‑night market ambience",
+      "note": "Food stalls and shoppers linger till 10‑11 pm, creating a vibrant after‑dark scene.",
+      "photo_url": null
+    },
+    {
+      "id": 173,
+      "destination_id": 38,
+      "name": "Lajpat Nagar Metro Station Exit‑2",
+      "note": "Lajpat Nagar Metro Station’s Exit‑2 opens directly onto the market, guiding first‑time visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 174,
+      "destination_id": 38,
+      "name": "Weekend bargain bazaars",
+      "note": "Saturday‑Sunday stalls flood the lanes with discounted clothing, accessories, and home décor.",
+      "photo_url": null
+    },
+    {
+      "id": 175,
+      "destination_id": 38,
+      "name": "Festive decorations",
+      "note": "During Diwali, Holi, and Eid the market sparkles with lights, rangoli, and themed stalls.",
+      "photo_url": null
+    },
+    {
+      "id": 176,
+      "destination_id": 38,
+      "name": "Walk to Lajpat Nagar Garden (Jheel)",
+      "note": "A short stroll leads to the nearby garden, a quiet spot for shoppers.",
+      "photo_url": null
+    },
+    {
+      "id": 177,
+      "destination_id": 39,
+      "name": "Weekly “M‑Block Market Walk”",
+      "note": "Leisurely stroll along the main lane, showcasing diverse vendors and lively local chatter.",
+      "photo_url": null
+    },
+    {
+      "id": 178,
+      "destination_id": 39,
+      "name": "Shri Sai Baba Mandir (near market)",
+      "note": "Small shrine near the market where shoppers pause for daily aarti and prayers.",
+      "photo_url": null
+    },
+    {
+      "id": 179,
+      "destination_id": 39,
+      "name": "Book‑Swap Corner",
+      "note": "Informal stall where visitors exchange used books, fostering a community reading vibe.",
+      "photo_url": null
+    },
+    {
+      "id": 180,
+      "destination_id": 39,
+      "name": "Artisan Handicraft Stalls",
+      "note": "Boutiques and stalls display handmade jewellery, embroidered dupattas, and Delhi‑style décor.",
+      "photo_url": null
+    },
+    {
+      "id": 181,
+      "destination_id": 40,
+      "name": "Defence Colony Park walk",
+      "note": "Well‑kept park adjacent to market, ideal for morning jogs and evening yoga.",
+      "photo_url": null
+    },
+    {
+      "id": 182,
+      "destination_id": 40,
+      "name": "Community‑centre events",
+      "note": "Local centre hosts yoga classes, workshops and cultural performances spilling into the market.",
+      "photo_url": null
+    },
+    {
+      "id": 183,
+      "destination_id": 40,
+      "name": "Weekend flea‑market",
+      "note": "Occasional pop‑up stalls where artisans sell jewellery, vintage items and handmade crafts.",
+      "photo_url": null
+    },
+    {
+      "id": 184,
+      "destination_id": 40,
+      "name": "Street‑art & mural walk",
+      "note": "Colorful graffiti and murals on market walls draw photo‑hunters and art fans.",
+      "photo_url": null
+    },
+    {
+      "id": 185,
+      "destination_id": 41,
+      "name": "Guided Heritage Tours",
+      "note": "Docent‑led walks highlighting key artifacts in the archaeology, sculpture and art galleries.",
+      "photo_url": null
+    },
+    {
+      "id": 186,
+      "destination_id": 41,
+      "name": "Night Museum (Friday evenings)",
+      "note": "Extended evening hours with special lighting, performances and talks on select Fridays.",
+      "photo_url": null
+    },
+    {
+      "id": 187,
+      "destination_id": 41,
+      "name": "Children’s Activity Zone (Museum Quest)",
+      "note": "Interactive treasure‑hunt and workshops designed for kids within a dedicated learning area.",
+      "photo_url": null
+    },
+    {
+      "id": 188,
+      "destination_id": 41,
+      "name": "Cultural Workshops & Demonstrations",
+      "note": "Hands‑on sessions like pottery, dance and calligraphy hosted in the education wing.",
+      "photo_url": null
+    },
+    {
+      "id": 189,
+      "destination_id": 42,
+      "name": "Guided Architectural Tour of Rashtrapati Bhavan",
+      "note": "Pre‑booked tours showcase the dome, Durbar Hall, and secretariat passages.",
+      "photo_url": null
+    },
+    {
+      "id": 190,
+      "destination_id": 42,
+      "name": "Mughal Gardens (Zanana‑Garden) Visit",
+      "note": "Seasonal opening of the 15‑acre formal garden with terraces and fountains.",
+      "photo_url": null
+    },
+    {
+      "id": 191,
+      "destination_id": 42,
+      "name": "Rashtrapati Bhavan Museum",
+      "note": "Displays presidential portraits, historic furniture, and diplomatic gifts inside the estate.",
+      "photo_url": null
+    },
+    {
+      "id": 192,
+      "destination_id": 42,
+      "name": "Republic Day Parade Viewpoint",
+      "note": "Designated east‑lawn spot for watching the Republic Day ceremony (security‑cleared).",
+      "photo_url": null
+    },
+    {
+      "id": 193,
+      "destination_id": 36,
+      "name": "Bargaining & pick‑and‑mix shopping",
+      "note": "Haggle for ethnic wear, jewellery, and décor across dozens of compact stalls.",
+      "photo_url": null
+    },
+    {
+      "id": 194,
+      "destination_id": 36,
+      "name": "Janpath Fountain / Central Arch",
+      "note": "Ornamental arch and fountain serve as popular photo spot and meeting point.",
+      "photo_url": null
+    },
+    {
+      "id": 195,
+      "destination_id": 36,
+      "name": "Live street performances",
+      "note": "Weekend musicians, dancers, and magicians entertain shoppers, especially during festivals.",
+      "photo_url": null
+    },
+    {
+      "id": 196,
+      "destination_id": 36,
+      "name": "Seasonal festive decorations",
+      "note": "Market transforms with lights, colors, and themed stalls for Diwali, Holi, and Christmas.",
+      "photo_url": null
+    },
+    {
+      "id": 197,
+      "destination_id": 43,
+      "name": "Qutub Minar",
+      "note": "73‑meter tall UNESCO World Heritage tower dominating the park’s skyline.",
+      "photo_url": null
+    },
+    {
+      "id": 198,
+      "destination_id": 43,
+      "name": "Quwwat‑ul‑Islam Mosque",
+      "note": "India’s first stone‑built mosque, constructed using reclaimed temple columns.",
+      "photo_url": null
+    },
+    {
+      "id": 199,
+      "destination_id": 43,
+      "name": "Alai Darwaza",
+      "note": "Red‑sandstone gateway with intricate carvings, marking the entrance to the Qutub complex.",
+      "photo_url": null
+    },
+    {
+      "id": 200,
+      "destination_id": 43,
+      "name": "Jamali Kamali Mosque & Tomb",
+      "note": "Quiet 16th‑century shrine famed for delicate arches and serene photography spots.",
+      "photo_url": null
+    },
+    {
+      "id": 201,
+      "destination_id": 44,
+      "name": "Hazrat Nizamuddin Auliya Dargah",
+      "note": "Centuries‑old Sufi shrine, the spiritual heart of the neighbourhood.",
+      "photo_url": null
+    },
+    {
+      "id": 202,
+      "destination_id": 44,
+      "name": "Thursday Qawwali Sessions",
+      "note": "Live devotional qawwali performances every Thursday, drawing crowds of devotees and tourists.",
+      "photo_url": null
+    },
+    {
+      "id": 203,
+      "destination_id": 44,
+      "name": "Urs‑Mela (Sufi Festival)",
+      "note": "Annual Urs celebration with music, food stalls, and cultural programmes at the dargah.",
+      "photo_url": null
+    },
+    {
+      "id": 204,
+      "destination_id": 44,
+      "name": "Mausoleum of Mirza Ghalib",
+      "note": "Poet Mirza Ghalib’s tomb, a short walk from the dargah, attracting literary enthusiasts.",
+      "photo_url": null
+    },
+    {
+      "id": 205,
+      "destination_id": 45,
+      "name": "Backpacker‑hostel culture",
+      "note": "Budget hostels foster a lively mix of international travelers sharing tips and stories.",
+      "photo_url": null
+    },
+    {
+      "id": 206,
+      "destination_id": 45,
+      "name": "Heritage walk of Old Delhi starting from Paharganj",
+      "note": "Guided tours launch here, linking Paharganj to Jama Masjid, Chandni Chowk, Red Fort.",
+      "photo_url": null
+    },
+    {
+      "id": 207,
+      "destination_id": 45,
+      "name": "The Irish House bar",
+      "note": "Popular Irish‑style pub offering cheap drinks, live music, and a social hub for backpackers.",
+      "photo_url": null
+    },
+    {
+      "id": 208,
+      "destination_id": 45,
+      "name": "Paharganj Police Station & colonial architecture tours",
+      "note": "Visits highlight the historic police station and surrounding British‑era building facades.",
+      "photo_url": null
+    },
+    {
+      "id": 209,
+      "destination_id": 46,
+      "name": "Metalware browsing",
+      "note": "Extensive brass, copper and metalware stalls, from temple idols to decorative trays.",
+      "photo_url": null
+    },
+    {
+      "id": 210,
+      "destination_id": 46,
+      "name": "Wedding supplies shopping",
+      "note": "Wedding essentials—mehndi cones, bridal jewelry, invitation cards—all under one roof.",
+      "photo_url": null
+    },
+    {
+      "id": 211,
+      "destination_id": 46,
+      "name": "Historic paper‑printing and stationery shops",
+      "note": "Paper‑printing and stationery outlets operating since early 1900s, preserving old‑Delhi printing craft.",
+      "photo_url": null
+    },
+    {
+      "id": 212,
+      "destination_id": 46,
+      "name": "Old Chawri Bazar police station building",
+      "note": "Colonial‑era Chawri Bazar police station building, a striking historic landmark.",
+      "photo_url": null
+    },
+    {
+      "id": 213,
+      "destination_id": 47,
+      "name": "Darshan of the main Shiva lingam",
+      "note": "Devotees view the massive Shiva lingam in the main sanctum, offering prayers and flowers.",
+      "photo_url": null
+    },
+    {
+      "id": 214,
+      "destination_id": 47,
+      "name": "Navagraha (nine planetary) shrine",
+      "note": "The Navagraha shrine houses the nine planetary deities, visited for astrological remedies.",
+      "photo_url": null
+    },
+    {
+      "id": 215,
+      "destination_id": 47,
+      "name": "Evening Aarti and Light‑and‑Sound show",
+      "note": "Evening aarti includes a light‑and‑sound narration of temple legends, creating a vibrant atmosphere.",
+      "photo_url": null
+    },
+    {
+      "id": 216,
+      "destination_id": 47,
+      "name": "Visiting nearby Mansa Devi and Shri Nandishwar temples",
+      "note": "Pilgrims also explore adjacent Mansa Devi and Shri Nandishwar shrines within the same temple complex.",
+      "photo_url": null
+    },
+    {
+      "id": 217,
+      "destination_id": 48,
+      "name": "Darshan of Sri Sri Radha‑Shyamasundar",
+      "note": "View the beautifully adorned main deities, central focus of worship and meditation.",
+      "photo_url": null
+    },
+    {
+      "id": 218,
+      "destination_id": 48,
+      "name": "Maha‑Aarti (Evening Aarti)",
+      "note": "Grand twilight prayer with chants, lamps, and music, drawing large congregations.",
+      "photo_url": null
+    },
+    {
+      "id": 219,
+      "destination_id": 48,
+      "name": "Janmashtami & Ratha‑Yatra Celebrations",
+      "note": "Vibrant festivals featuring processions, decorative chariots, and cultural performances unique to ISKCON Delhi.",
+      "photo_url": null
+    },
+    {
+      "id": 220,
+      "destination_id": 48,
+      "name": "Food‑Donation “Food for Life” Program",
+      "note": "Volunteer-driven initiative serving free prasadam to the needy, embodying temple’s service ethos.",
+      "photo_url": null
+    },
+    {
+      "id": 221,
+      "destination_id": 49,
+      "name": "Safari Train ride",
+      "note": "Heritage‑style train circles the park, giving an overview of major animal enclosures.",
+      "photo_url": null
+    },
+    {
+      "id": 222,
+      "destination_id": 49,
+      "name": "Giraffe feeding window",
+      "note": "Visitors can watch and purchase fruit to feed giraffes from a safe platform.",
+      "photo_url": null
+    },
+    {
+      "id": 223,
+      "destination_id": 49,
+      "name": "Butterfly Garden",
+      "note": "Lush enclosure where colorful butterflies flutter among landscaped flora.",
+      "photo_url": null
+    },
+    {
+      "id": 224,
+      "destination_id": 49,
+      "name": "Bird‑watching tower / Aviary walk",
+      "note": "Elevated path provides close views of native and exotic bird species.",
+      "photo_url": null
+    },
+    {
+      "id": 225,
+      "destination_id": 50,
+      "name": "Guided nature walks / biodiversity tours",
+      "note": "Staff-led tours highlight native plants, wetlands, and restoration successes.",
+      "photo_url": null
+    },
+    {
+      "id": 226,
+      "destination_id": 50,
+      "name": "Butterfly garden & pollinator trail",
+      "note": "Planted zone attracts butterflies, teaching pollinator importance to visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 227,
+      "destination_id": 50,
+      "name": "Interpretive/visitor centre",
+      "note": "Displays park history, species info, and sustainable practices for education.",
+      "photo_url": null
+    },
+    {
+      "id": 228,
+      "destination_id": 50,
+      "name": "Native grass‑land and wetland boardwalk",
+      "note": "Raised walkway offers close views of waterbirds and wetland habitats.",
+      "photo_url": null
+    },
+    {
+      "id": 229,
+      "destination_id": 51,
+      "name": "World War I Memorial",
+      "note": "Large stone monument honoring Indian soldiers of the Great War, central to the park.",
+      "photo_url": null
+    },
+    {
+      "id": 230,
+      "destination_id": 51,
+      "name": "Statues of British monarchs",
+      "note": "Historic statues of King George V and Edward VII line the main promenade.",
+      "photo_url": null
+    },
+    {
+      "id": 231,
+      "destination_id": 51,
+      "name": "Jogging / Running track",
+      "note": "Paved 1.2 km loop around the lawns frequented by locals.",
+      "photo_url": null
+    },
+    {
+      "id": 232,
+      "destination_id": 51,
+      "name": "Morning yoga sessions",
+      "note": "Open‑air yoga classes held on the grass every weekend sunrise.",
+      "photo_url": null
+    },
+    {
+      "id": 233,
+      "destination_id": 52,
+      "name": "Food Street shopping (pedestrian lane beside Metro exit)",
+      "note": "Hundreds of stalls line the lane, ideal for a food‑crawl and souvenir hunt.",
+      "photo_url": null
+    },
+    {
+      "id": 234,
+      "destination_id": 52,
+      "name": "Rajouri Garden Metro Station passage and nearby art displays",
+      "note": "Direct underground link leads to market, occasionally showcasing local artists.",
+      "photo_url": null
+    },
+    {
+      "id": 235,
+      "destination_id": 52,
+      "name": "Jwala Devi Temple tucked in a side lane",
+      "note": "Small shrine offering a cultural pause amid the market bustle.",
+      "photo_url": null
+    },
+    {
+      "id": 236,
+      "destination_id": 52,
+      "name": "Street‑performance corner near the main crossroads",
+      "note": "Local musicians and magicians entertain shoppers, adding vibrant atmosphere.",
+      "photo_url": null
+    },
+    {
+      "id": 237,
+      "destination_id": 53,
+      "name": "International Trade Fair",
+      "note": "India’s largest annual exhibition, showcasing products from across sectors and attracting millions of visitors.",
+      "photo_url": null
+    },
+    {
+      "id": 238,
+      "destination_id": 53,
+      "name": "Auto Expo",
+      "note": "Biennial automotive showcase featuring new launches, concept cars, and industry innovations at Pragati Maidan.",
+      "photo_url": null
+    },
+    {
+      "id": 239,
+      "destination_id": 53,
+      "name": "India International Jewellery Show (IIJS)",
+      "note": "Premier jewellery and gemstone exhibition, drawing designers, buyers, and collectors to the venue.",
+      "photo_url": null
+    },
+    {
+      "id": 240,
+      "destination_id": 53,
+      "name": "Hall of Nations",
+      "note": "Iconic 1972‑era pavilion, historically symbolic of Pragati Maidan’s architecture (now replaced).",
+      "photo_url": null
+    }
+  ]
+}

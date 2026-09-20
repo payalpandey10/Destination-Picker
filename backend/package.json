@@ -10,7 +10,9 @@
     "seed": "node --experimental-sqlite scripts/insert-destinations.js",
     "generate": "node --experimental-sqlite scripts/generate-content.js",
     "migrate-metro": "node --experimental-sqlite scripts/migrate-add-metro-columns.js",
-    "generate-metro": "node --experimental-sqlite scripts/generate-metro-info.js"
+    "generate-metro": "node --experimental-sqlite scripts/generate-metro-info.js",
+    "export-data": "node --experimental-sqlite scripts/export-data.js",
+    "import-data": "node --experimental-sqlite scripts/import-data.js"
   },
   "keywords": [],
   "author": "",
